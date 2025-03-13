@@ -2649,3 +2649,6 @@ java.lang.ClassNotFoundException: org.mineskin.request.AbstractRequestBuilder
 [13Mar2025 17:57:04.975] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LuxSilver[/127.69.220.99:51387] logged in with entity id 123 at (190.57744156743323, 100.0, 166.09397857953198)
 [13Mar2025 17:57:05.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver joined the game
 [13Mar2025 17:57:05.278] [Server thread/INFO] [Jade/]: Syncing config to LuxSilver (627b3782-d24f-356a-b10f-fe70da0cb127)
+[13Mar2025 18:02:10.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement [Smash And Bash!]
+[13Mar2025 18:16:59.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement [Disme A Dozen]
+[13Mar2025 18:19:07.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver was slain by LuxSilver
