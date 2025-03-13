@@ -1,164 +1,1951 @@
-[13Mar2025 15:34:45.834] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[13Mar2025 15:34:45.837] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[13Mar2025 15:34:46.100] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[13Mar2025 15:34:46.142] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/wither/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[13Mar2025 15:34:46.481] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/wither/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[13Mar2025 15:34:46.484] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/wither/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[13Mar2025 15:34:46.486] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/wither/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[13Mar2025 15:34:46.490] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/wither/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[13Mar2025 15:34:46.702] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
-[13Mar2025 15:34:49.090] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[13Mar2025 15:34:49.258] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[13Mar2025 15:34:50.824] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[13Mar2025 15:34:50.825] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[13Mar2025 15:34:50.826] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
-[13Mar2025 15:34:51.152] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[13Mar2025 15:34:57.795] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[13Mar2025 15:34:57.805] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:key_pressed
-[13Mar2025 15:34:57.807] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:mode_changed
-[13Mar2025 15:34:57.806] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[13Mar2025 15:34:57.813] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[13Mar2025 15:34:57.814] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:sync_config_to_server
-[13Mar2025 15:34:57.815] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[13Mar2025 15:34:57.827] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[13Mar2025 15:34:57.853] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[13Mar2025 15:34:57.854] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[13Mar2025 15:34:57.855] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[13Mar2025 15:34:58.290] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
-[13Mar2025 15:34:58.328] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[13Mar2025 15:34:58.390] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[13Mar2025 15:34:58.405] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[13Mar2025 15:34:58.406] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[13Mar2025 15:34:59.071] [main/WARN] [Moonlight/]: Failed to find custom wood type biomesoplenty:red_maple
-[13Mar2025 15:34:59.073] [main/WARN] [Moonlight/]: Failed to find custom wood type biomesoplenty:orange_maple
-[13Mar2025 15:34:59.073] [main/WARN] [Moonlight/]: Failed to find custom wood type biomesoplenty:yellow_maple
-[13Mar2025 15:34:59.087] [main/INFO] [Moonlight/]: Initialized block sets in 26ms
-[13Mar2025 15:34:59.156] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.Entity from class it.hurts.octostudios.rarcompat.items.necklace.ScarfOfInvisibilityItem
-[13Mar2025 15:34:59.476] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/wither/servidor_minecraft/config/moonlight-common.toml is not correct. Correcting
-[13Mar2025 15:34:59.477] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[13Mar2025 15:34:59.478] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.clear_dynamic_resources was corrected from null to its default, false. 
-[13Mar2025 15:34:59.568] [modloading-worker-0/INFO] [com.lootintegrations.LootintegrationsMod/]: lootintegrations mod initialized
-[13Mar2025 15:34:59.623] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[13Mar2025 15:35:00.055] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.72 Target: null
-[13Mar2025 15:35:00.059] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[13Mar2025 15:35:00.282] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[13Mar2025 15:35:00.282] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[13Mar2025 15:35:00.354] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[13Mar2025 15:35:00.355] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[13Mar2025 15:35:00.355] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[13Mar2025 15:35:00.355] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[13Mar2025 15:35:00.356] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[13Mar2025 15:35:00.356] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[13Mar2025 15:35:00.356] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[13Mar2025 15:35:00.390] [main/INFO] [Moonlight/]: Initialized color sets in 20ms
-[13Mar2025 15:35:00.416] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[13Mar2025 15:35:00.413] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[13Mar2025 15:35:00.426] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[13Mar2025 15:35:00.427] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[13Mar2025 15:35:00.490] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[13Mar2025 15:35:00.517] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[13Mar2025 15:35:00.523] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[13Mar2025 15:35:00.527] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
-[13Mar2025 15:35:00.528] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
-[13Mar2025 15:35:00.530] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
-[13Mar2025 15:35:00.775] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.20 Target: null
-[13Mar2025 15:35:02.037] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13Mar2025 15:35:02.143] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
-mixinextras (version 0.3.5 -> 0.3.6)
+[13Mar2025 17:03:10.146] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[13Mar2025 17:03:10.150] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[13Mar2025 17:03:11.244] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13Mar2025 17:03:11.302] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/wither/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[13Mar2025 17:03:11.611] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/wither/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[13Mar2025 17:03:11.612] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/wither/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Mar2025 17:03:11.613] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/wither/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Mar2025 17:03:11.614] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/wither/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[13Mar2025 17:03:11.824] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[13Mar2025 17:03:13.961] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13Mar2025 17:03:14.079] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[13Mar2025 17:03:15.327] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[13Mar2025 17:03:15.328] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[13Mar2025 17:03:15.328] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[13Mar2025 17:03:15.967] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[13Mar2025 17:03:22.601] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[13Mar2025 17:03:22.602] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[13Mar2025 17:03:22.604] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[13Mar2025 17:03:22.610] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[13Mar2025 17:03:22.612] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[13Mar2025 17:03:22.617] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[13Mar2025 17:03:22.619] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[13Mar2025 17:03:22.624] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[13Mar2025 17:03:22.848] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[13Mar2025 17:03:22.856] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[13Mar2025 17:03:23.369] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:key_pressed
+[13Mar2025 17:03:23.369] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:mode_changed
+[13Mar2025 17:03:23.374] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:sync_config_to_server
+[13Mar2025 17:03:23.457] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[13Mar2025 17:03:23.457] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 11
+[13Mar2025 17:03:23.459] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 11 has been initalized!
+[13Mar2025 17:03:23.612] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[13Mar2025 17:03:23.639] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[13Mar2025 17:03:23.668] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[13Mar2025 17:03:24.219] [main/INFO] [Moonlight/]: Initialized block sets in 8ms
+[13Mar2025 17:03:24.318] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.Entity from class it.hurts.octostudios.rarcompat.items.necklace.ScarfOfInvisibilityItem
+[13Mar2025 17:03:24.777] [modloading-worker-0/INFO] [com.lootintegrations.LootintegrationsMod/]: lootintegrations mod initialized
+[13Mar2025 17:03:24.824] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Mar2025 17:03:24.885] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[13Mar2025 17:03:25.343] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[13Mar2025 17:03:25.344] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[13Mar2025 17:03:25.741] [main/INFO] [Moonlight/]: Initialized color sets in 27ms
+[13Mar2025 17:03:25.770] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[13Mar2025 17:03:25.772] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[13Mar2025 17:03:25.773] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[13Mar2025 17:03:25.774] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[13Mar2025 17:03:25.867] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[13Mar2025 17:03:25.876] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[13Mar2025 17:03:25.876] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[13Mar2025 17:03:25.878] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[13Mar2025 17:03:25.891] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[13Mar2025 17:03:25.896] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[13Mar2025 17:03:25.898] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.easyvillagers.integration.waila.PluginEasyVillagers
+[13Mar2025 17:03:25.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.20 Target: null
+[13Mar2025 17:03:25.926] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[13Mar2025 17:03:25.972] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.72 Target: null
+[13Mar2025 17:03:25.972] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
+[13Mar2025 17:03:26.069] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: OUTDATED Current: 1.20.1-1.1.22 Target: 1.20.1-1.1.23
+[13Mar2025 17:03:27.951] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13Mar2025 17:03:28.067] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+born_in_chaos_v1 (version 1.6.3 -> MISSING)
 Things may not work well.
-[13Mar2025 15:35:02.228] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: moonlight:placeable_item Expected: 1255 Got: 1845
-[13Mar2025 15:35:03.073] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/wither/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23179!/assets/.mcassetsroot' uses unexpected schema
-[13Mar2025 15:35:03.073] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/wither/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23179!/data/.mcassetsroot' uses unexpected schema
-[13Mar2025 15:35:05.759] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
-[13Mar2025 15:35:05.915] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1646 advancements
-[13Mar2025 15:35:05.926] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[13Mar2025 15:35:05.932] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
-[13Mar2025 15:35:05.933] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
-[13Mar2025 15:35:05.934] [main/INFO] [com.lootintegrations.LootintegrationsMod/]: Parsing loot modifiers for:lootintegrations:dungeonloot_no_overflow with loottable: minecraft:chests/simple_dungeon
-[13Mar2025 15:35:06.548] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[13Mar2025 15:35:06.549] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[13Mar2025 15:35:06.550] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[13Mar2025 15:35:06.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[13Mar2025 15:35:06.779] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[13Mar2025 15:35:06.803] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[13Mar2025 15:35:06.888] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13Mar2025 15:35:06.888] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[13Mar2025 15:35:06.889] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13Mar2025 15:35:06.889] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[13Mar2025 15:35:06.994] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[13Mar2025 15:35:07.560] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[13Mar2025 15:35:07.561] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[13Mar2025 15:35:12.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13Mar2025 15:35:14.513] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[13Mar2025 15:35:16.432] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Mar2025 15:35:16.436] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Mar2025 15:35:16.437] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Mar2025 15:35:16.440] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Mar2025 15:35:16.444] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Mar2025 15:35:16.446] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Mar2025 15:35:16.447] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Mar2025 15:35:16.449] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Mar2025 15:35:16.864] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[13Mar2025 15:35:17.311] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[13Mar2025 15:35:17.364] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
-[13Mar2025 15:35:17.676] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4813 ms
-[13Mar2025 15:35:17.676] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.775s)! For help, type "help"
-[13Mar2025 15:35:17.705] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[13Mar2025 15:35:17.804] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: lootintegrations.json
-[13Mar2025 15:36:13.400] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LuxSilver[/127.69.220.99:44305] logged in with entity id 108 at (-12.5, 94.0, 9.5)
-[13Mar2025 15:36:13.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver joined the game
-[13Mar2025 15:36:13.622] [Server thread/INFO] [Jade/]: Syncing config to LuxSilver (627b3782-d24f-356a-b10f-fe70da0cb127)
-[13Mar2025 15:38:41.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver hit the ground too hard whilst trying to escape Spider
-[13Mar2025 15:42:26.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement [Monster Hunter]
-[13Mar2025 15:42:29.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement ['X' Marks the Spot]
-[13Mar2025 15:42:49.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement [Sweet Dreams]
-[13Mar2025 15:45:32.692] [ForkJoinPool.commonPool-worker-4/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent org/mineskin/request/AbstractRequestBuilder for class org/mineskin/request/UrlRequestBuilderImpl in classloader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528 on thread Thread[ForkJoinPool.commonPool-worker-4,5,SERVER]
-[13Mar2025 15:45:32.692] [ForkJoinPool.commonPool-worker-4/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
-java.lang.ClassNotFoundException: org.mineskin.request.AbstractRequestBuilder
-	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
-	at jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[?:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:97) ~[eventbus-6.0.5.jar%2352!/:?]
-	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:48) ~[eventbus-6.0.5.jar%2352!/:?]
-	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.5.jar%2352!/:?]
-	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.5.jar%2352!/:6.0.5+6.0.5+master.eb8e549b]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at org.mineskin.request.GenerateRequest.url(GenerateRequest.java:39) ~[?:?]
-	at org.mineskin.request.GenerateRequest.url(GenerateRequest.java:43) ~[?:?]
-	at net.lionarius.skinrestorer.skin.provider.MineskinSkinProvider.loadSkin(MineskinSkinProvider.java:102) ~[?:?]
-	at net.lionarius.skinrestorer.skin.provider.MineskinSkinProvider$1.load(MineskinSkinProvider.java:68) ~[?:?]
-	at net.lionarius.skinrestorer.skin.provider.MineskinSkinProvider$1.load(MineskinSkinProvider.java:65) ~[?:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3533) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2282) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2159) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2049) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:3966) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3989) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4950) ~[guava-31.1-jre.jar%2374!/:?]
-	at net.lionarius.skinrestorer.skin.provider.MineskinSkinProvider.fetchSkin(MineskinSkinProvider.java:88) ~[?:?]
-	at net.lionarius.skinrestorer.SkinRestorer.lambda$setSkinAsync$0(SkinRestorer.java:138) ~[?:?]
-	at java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.lionarius.skinrestorer.SkinRestorer.lambda$setSkinAsync$1(SkinRestorer.java:138) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13Mar2025 15:45:35.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LuxSilver: Skin changed]
-[13Mar2025 15:46:02.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LuxSilver: Skin changed]
-[13Mar2025 15:46:24.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LuxSilver: Skin changed]
-[13Mar2025 15:46:35.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LuxSilver: Skin changed]
-[13Mar2025 15:46:55.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement [Stone Age]
-[13Mar2025 15:49:52.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement [Getting an Upgrade]
-[13Mar2025 15:50:30.123] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LuxSilver lost connection: Disconnected
-[13Mar2025 15:50:30.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver left the game
+[13Mar2025 17:03:28.184] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	born_in_chaos_v1:argillite_lamp: 1616
+	born_in_chaos_v1:black_argillite: 1558
+	born_in_chaos_v1:black_argillite_brick: 1559
+	born_in_chaos_v1:black_argillite_brick_n: 1576
+	born_in_chaos_v1:black_argillite_brick_slab: 1562
+	born_in_chaos_v1:black_argillite_brick_slab_n: 1579
+	born_in_chaos_v1:black_argillite_brick_stairs: 1561
+	born_in_chaos_v1:black_argillite_brick_stairs_n: 1578
+	born_in_chaos_v1:black_argillite_brick_wall: 1564
+	born_in_chaos_v1:black_argillite_brick_wall_n: 1581
+	born_in_chaos_v1:black_argillite_button: 1573
+	born_in_chaos_v1:black_argillite_column: 1568
+	born_in_chaos_v1:black_argillite_column_n: 1585
+	born_in_chaos_v1:black_argillite_column_slab: 1569
+	born_in_chaos_v1:black_argillite_column_slab_n: 1586
+	born_in_chaos_v1:black_argillite_n: 1575
+	born_in_chaos_v1:black_argillite_slab: 1571
+	born_in_chaos_v1:black_argillite_slab_n: 1588
+	born_in_chaos_v1:black_argillite_stairs: 1570
+	born_in_chaos_v1:black_argillite_stairs_n: 1587
+	born_in_chaos_v1:black_argillite_wall: 1572
+	born_in_chaos_v1:black_argillite_wall_n: 1589
+	born_in_chaos_v1:black_argillitepressureplate: 1574
+	born_in_chaos_v1:bundle_of_bones: 1607
+	born_in_chaos_v1:c_black_argillite_brick_n: 1580
+	born_in_chaos_v1:carved_black_argillite: 1567
+	born_in_chaos_v1:carved_black_argillite_n: 1584
+	born_in_chaos_v1:chipped_black_argillite_brick: 1563
+	born_in_chaos_v1:closed_hound_trap: 1633
+	born_in_chaos_v1:cobweb_cover: 1644
+	born_in_chaos_v1:creepy_nutcracker: 1652
+	born_in_chaos_v1:cultivated_pumpkin: 1611
+	born_in_chaos_v1:cursed_scarlet_ornate_glass_pane: 1629
+	born_in_chaos_v1:dark_grid: 1625
+	born_in_chaos_v1:dark_ice: 1646
+	born_in_chaos_v1:dark_metal_block: 1557
+	born_in_chaos_v1:dark_metal_deposit: 1590
+	born_in_chaos_v1:dark_stained_glass: 1626
+	born_in_chaos_v1:dark_stained_glass_panel: 1627
+	born_in_chaos_v1:evil_carved_pumpkin: 1612
+	born_in_chaos_v1:fel_soil: 1636
+	born_in_chaos_v1:fel_soil_destructible: 1637
+	born_in_chaos_v1:fired_black_argillite: 1560
+	born_in_chaos_v1:fired_black_argillite_n: 1577
+	born_in_chaos_v1:flaming_evil_pumpkin: 1613
+	born_in_chaos_v1:fragile_scorched_boards: 1598
+	born_in_chaos_v1:gnawed_bones: 1609
+	born_in_chaos_v1:green_stained_glass: 1621
+	born_in_chaos_v1:green_stained_glass_panel: 1622
+	born_in_chaos_v1:hound_trap: 1632
+	born_in_chaos_v1:infected_deepslate_diamond_ore: 1610
+	born_in_chaos_v1:infected_diamond_ore: 1556
+	born_in_chaos_v1:infernal_evil_pumpkin: 1614
+	born_in_chaos_v1:infernal_evil_pumpkin_s: 1615
+	born_in_chaos_v1:lifestealer_skull: 1647
+	born_in_chaos_v1:marigolds: 1628
+	born_in_chaos_v1:mesh_door: 1555
+	born_in_chaos_v1:mossy_black_argillite_brick: 1565
+	born_in_chaos_v1:mossy_black_argillite_brick_n: 1582
+	born_in_chaos_v1:nightmare_stalker_skull: 1630
+	born_in_chaos_v1:orange_stained_glass: 1619
+	born_in_chaos_v1:orange_stained_glass_panel: 1620
+	born_in_chaos_v1:pile_of_skulls: 1608
+	born_in_chaos_v1:puddleof_stimulation: 1638
+	born_in_chaos_v1:puddleofintoxication: 1631
+	born_in_chaos_v1:purple_stained_glass: 1623
+	born_in_chaos_v1:purple_stained_glass_panel: 1624
+	born_in_chaos_v1:river_mint: 1635
+	born_in_chaos_v1:rotten_infernal_pumpkin: 1650
+	born_in_chaos_v1:rotten_soil: 1641
+	born_in_chaos_v1:scarlet_stained_glass: 1617
+	born_in_chaos_v1:scarlet_stained_glass_panel: 1618
+	born_in_chaos_v1:scorched_log: 1591
+	born_in_chaos_v1:scorched_planks: 1597
+	born_in_chaos_v1:scorched_planks_button: 1603
+	born_in_chaos_v1:scorched_planks_door: 1606
+	born_in_chaos_v1:scorched_planks_fence: 1601
+	born_in_chaos_v1:scorched_planks_fence_gate: 1602
+	born_in_chaos_v1:scorched_planks_pressure_plates: 1604
+	born_in_chaos_v1:scorched_planks_slab: 1600
+	born_in_chaos_v1:scorched_planks_stairs: 1599
+	born_in_chaos_v1:scorched_planks_trapdoor: 1605
+	born_in_chaos_v1:scorched_wood: 1592
+	born_in_chaos_v1:smoldering_scorched_log: 1593
+	born_in_chaos_v1:smoldering_scorched_wood: 1594
+	born_in_chaos_v1:spiny_shell_trap: 1634
+	born_in_chaos_v1:spooky_snowman_head: 1651
+	born_in_chaos_v1:stained_black_argillite_brick: 1566
+	born_in_chaos_v1:stained_black_argillite_brick_n: 1583
+	born_in_chaos_v1:stripped_scorched_log: 1595
+	born_in_chaos_v1:stripped_scorched_wood: 1596
+	born_in_chaos_v1:tombstone_2003wise: 1642
+	born_in_chaos_v1:tombstone_dark_titan_066: 1639
+	born_in_chaos_v1:tombstone_derivas: 1648
+	born_in_chaos_v1:tombstone_fubuki_banzai: 1649
+	born_in_chaos_v1:tombstone_orion: 1643
+	born_in_chaos_v1:tombstone_petasi: 1640
+	born_in_chaos_v1:webbed_cobblestone: 1645
+
+[13Mar2025 17:03:28.187] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
+	born_in_chaos_v1:baby_skeleton: 290
+	born_in_chaos_v1:baby_skeleton_minion: 291
+	born_in_chaos_v1:baby_spider: 372
+	born_in_chaos_v1:baby_spider_controlled: 374
+	born_in_chaos_v1:barrel_zombie: 293
+	born_in_chaos_v1:bloody_gadfly: 335
+	born_in_chaos_v1:bone_imp: 304
+	born_in_chaos_v1:bone_imp_minion: 305
+	born_in_chaos_v1:bonescaller: 303
+	born_in_chaos_v1:bonescaller_not_despawn: 325
+	born_in_chaos_v1:controlled_baby_skeleton: 292
+	born_in_chaos_v1:controlled_spiritual_assistant: 368
+	born_in_chaos_v1:corpse_fish: 336
+	born_in_chaos_v1:corpse_fly: 334
+	born_in_chaos_v1:dark_vortex: 308
+	born_in_chaos_v1:decaying_zombie: 289
+	born_in_chaos_v1:decaying_zombie_not_despawn: 323
+	born_in_chaos_v1:decrepit_skeleton: 287
+	born_in_chaos_v1:diamond_termite: 302
+	born_in_chaos_v1:dire_hound_leader: 332
+	born_in_chaos_v1:door_knight: 296
+	born_in_chaos_v1:door_knight_not_despawn: 324
+	born_in_chaos_v1:dread_hound: 309
+	born_in_chaos_v1:dread_hound_not_despawn: 328
+	born_in_chaos_v1:fallen_chaos_knight: 310
+	born_in_chaos_v1:felsteed: 318
+	born_in_chaos_v1:firelight: 301
+	born_in_chaos_v1:firelight_not_despawn: 329
+	born_in_chaos_v1:glutton_fish: 340
+	born_in_chaos_v1:infernal_spirit: 349
+	born_in_chaos_v1:intoxicatind_bomb_projectile: 356
+	born_in_chaos_v1:krampus: 379
+	born_in_chaos_v1:krampus_henchman: 380
+	born_in_chaos_v1:lifestealer: 370
+	born_in_chaos_v1:lifestealer_true_form: 371
+	born_in_chaos_v1:lord_pumpkinhead: 344
+	born_in_chaos_v1:lord_pumpkinhead_head: 348
+	born_in_chaos_v1:lord_pumpkinhead_withouta_horse: 346
+	born_in_chaos_v1:lord_the_headless: 347
+	born_in_chaos_v1:lords_felsteed: 345
+	born_in_chaos_v1:maggot: 333
+	born_in_chaos_v1:missionary_charge: 364
+	born_in_chaos_v1:missioner: 363
+	born_in_chaos_v1:mother_spider: 373
+	born_in_chaos_v1:mr_pumpkin: 315
+	born_in_chaos_v1:mr_pumpkin_controlled: 316
+	born_in_chaos_v1:mrs_pumpkin: 377
+	born_in_chaos_v1:nightmare_stalker: 375
+	born_in_chaos_v1:phantom_bomb_entity: 366
+	born_in_chaos_v1:phantom_bomb_projectile: 367
+	born_in_chaos_v1:phantom_creeper: 294
+	born_in_chaos_v1:phantom_creeper_copy: 295
+	born_in_chaos_v1:pumpkin_bomb: 342
+	born_in_chaos_v1:pumpkin_bruiser: 378
+	born_in_chaos_v1:pumpkin_dunce: 376
+	born_in_chaos_v1:pumpkin_pistol_2_projectile: 358
+	born_in_chaos_v1:pumpkin_pistol_projectile: 357
+	born_in_chaos_v1:pumpkin_spirit: 299
+	born_in_chaos_v1:pumpkin_staff_2_projectile: 355
+	born_in_chaos_v1:pumpkin_staff_projectile: 353
+	born_in_chaos_v1:pumpkinhead: 321
+	born_in_chaos_v1:restless_spirit: 297
+	born_in_chaos_v1:riding_felsteed: 322
+	born_in_chaos_v1:riding_lords_felsteed: 350
+	born_in_chaos_v1:scarlet_persecutor: 311
+	born_in_chaos_v1:seared_spirit: 300
+	born_in_chaos_v1:seared_spirit_not_despawn: 331
+	born_in_chaos_v1:senor_pumpkin: 343
+	born_in_chaos_v1:siamese_skeletons: 360
+	born_in_chaos_v1:siamese_skeletonsleft: 361
+	born_in_chaos_v1:siamese_skeletonsright: 362
+	born_in_chaos_v1:sir_pumpkinhead: 317
+	born_in_chaos_v1:sir_pumpkinhead_without_horse: 319
+	born_in_chaos_v1:sir_the_headless: 320
+	born_in_chaos_v1:skeleton_demoman: 288
+	born_in_chaos_v1:skeleton_thrasher: 298
+	born_in_chaos_v1:skeleton_thrasher_not_despawn: 327
+	born_in_chaos_v1:spirit_guide: 312
+	born_in_chaos_v1:spirit_guide_assistant: 313
+	born_in_chaos_v1:spiritof_chaos: 369
+	born_in_chaos_v1:staffof_blindness_projectile: 352
+	born_in_chaos_v1:staffof_magic_arrows_2_projectile: 354
+	born_in_chaos_v1:staffof_magic_arrows_projectile: 351
+	born_in_chaos_v1:stimulating_bombprojectile: 365
+	born_in_chaos_v1:supreme_bonescaller: 306
+	born_in_chaos_v1:supreme_bonescaller_not_despawn: 326
+	born_in_chaos_v1:supreme_bonescaller_stage_2: 307
+	born_in_chaos_v1:swarmer: 338
+	born_in_chaos_v1:thornshell_crab: 339
+	born_in_chaos_v1:zombie_bruiser: 341
+	born_in_chaos_v1:zombie_clown: 314
+	born_in_chaos_v1:zombie_clown_not_despawn: 330
+	born_in_chaos_v1:zombie_fisherman: 337
+	born_in_chaos_v1:zombie_lumberjack: 359
+
+[13Mar2025 17:03:28.193] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	born_in_chaos_v1:ai: 2436
+	born_in_chaos_v1:all_charm: 2632
+	born_in_chaos_v1:anluka_doors: 2456
+	born_in_chaos_v1:argillite_lamp: 2469
+	born_in_chaos_v1:armor_plate_from_dark_metal: 2433
+	born_in_chaos_v1:baby_skeleton_minion_spawn_egg: 2490
+	born_in_chaos_v1:baby_skeleton_spawn_egg: 2489
+	born_in_chaos_v1:baby_spider_controlled_spawn_egg: 2662
+	born_in_chaos_v1:baby_spider_spawn_egg: 2657
+	born_in_chaos_v1:bagof_candy: 2688
+	born_in_chaos_v1:barrel_zombie_spawn_egg: 2492
+	born_in_chaos_v1:birch_branches: 2704
+	born_in_chaos_v1:black_argillite: 2397
+	born_in_chaos_v1:black_argillite_brick: 2398
+	born_in_chaos_v1:black_argillite_brick_n: 2415
+	born_in_chaos_v1:black_argillite_brick_slab: 2401
+	born_in_chaos_v1:black_argillite_brick_slab_n: 2418
+	born_in_chaos_v1:black_argillite_brick_stairs: 2400
+	born_in_chaos_v1:black_argillite_brick_stairs_n: 2417
+	born_in_chaos_v1:black_argillite_brick_wall: 2403
+	born_in_chaos_v1:black_argillite_brick_wall_n: 2420
+	born_in_chaos_v1:black_argillite_button: 2412
+	born_in_chaos_v1:black_argillite_column: 2407
+	born_in_chaos_v1:black_argillite_column_n: 2424
+	born_in_chaos_v1:black_argillite_column_slab: 2408
+	born_in_chaos_v1:black_argillite_column_slab_n: 2425
+	born_in_chaos_v1:black_argillite_n: 2414
+	born_in_chaos_v1:black_argillite_slab: 2410
+	born_in_chaos_v1:black_argillite_slab_n: 2427
+	born_in_chaos_v1:black_argillite_stairs: 2409
+	born_in_chaos_v1:black_argillite_stairs_n: 2426
+	born_in_chaos_v1:black_argillite_wall: 2411
+	born_in_chaos_v1:black_argillite_wall_n: 2428
+	born_in_chaos_v1:black_argillitepressureplate: 2413
+	born_in_chaos_v1:bloody_gadfly_eye: 2644
+	born_in_chaos_v1:bloody_gadfly_spawn_egg: 2568
+	born_in_chaos_v1:bone_handle: 2391
+	born_in_chaos_v1:bone_heart: 2599
+	born_in_chaos_v1:bone_imp_minion_spawn_egg: 2504
+	born_in_chaos_v1:bone_imp_spawn_egg: 2503
+	born_in_chaos_v1:bonescaller_not_despawn_spawn_egg: 2524
+	born_in_chaos_v1:bonescaller_spawn_egg: 2502
+	born_in_chaos_v1:bonescaller_staff: 2652
+	born_in_chaos_v1:bottle_of_magical_energy: 2457
+	born_in_chaos_v1:bundle_of_bones: 2453
+	born_in_chaos_v1:burythemall_icon: 2684
+	born_in_chaos_v1:c_black_argillite_brick_n: 2419
+	born_in_chaos_v1:caramel_pepper: 2675
+	born_in_chaos_v1:carved_black_argillite: 2406
+	born_in_chaos_v1:carved_black_argillite_n: 2423
+	born_in_chaos_v1:chaos_component: 2666
+	born_in_chaos_v1:chaos_icon: 2621
+	born_in_chaos_v1:charmof_endurance: 2603
+	born_in_chaos_v1:charmof_fury: 2604
+	born_in_chaos_v1:charmof_power: 2600
+	born_in_chaos_v1:charmof_resistance: 2601
+	born_in_chaos_v1:charmof_stealth: 2602
+	born_in_chaos_v1:chipped_black_argillite_brick: 2402
+	born_in_chaos_v1:chocolate_heart: 2677
+	born_in_chaos_v1:closed_hound_trap: 2550
+	born_in_chaos_v1:cobweb_cover: 2659
+	born_in_chaos_v1:coffee_candy: 2678
+	born_in_chaos_v1:controlled_baby_skeleton_spawn_egg: 2491
+	born_in_chaos_v1:controlled_spiritual_assistant_spawn_egg: 2619
+	born_in_chaos_v1:corpse_fish_spawn_egg: 2569
+	born_in_chaos_v1:corpse_fly_spawn_egg: 2567
+	born_in_chaos_v1:corpse_maggot: 2552
+	born_in_chaos_v1:creepy_cookies_with_milk: 2693
+	born_in_chaos_v1:creepy_gift: 2694
+	born_in_chaos_v1:creepy_nutcracker: 2692
+	born_in_chaos_v1:cultivated_pumpkin: 2464
+	born_in_chaos_v1:cursed_scarlet_ornate_glass_pane: 2530
+	born_in_chaos_v1:damned_demomans_hat_helmet: 2616
+	born_in_chaos_v1:dark_atrium: 2671
+	born_in_chaos_v1:dark_charge: 2614
+	born_in_chaos_v1:dark_grid: 2480
+	born_in_chaos_v1:dark_ice: 2664
+	born_in_chaos_v1:dark_metal_armor_boots: 2432
+	born_in_chaos_v1:dark_metal_armor_chestplate: 2430
+	born_in_chaos_v1:dark_metal_armor_helmet: 2429
+	born_in_chaos_v1:dark_metal_armor_leggings: 2431
+	born_in_chaos_v1:dark_metal_block: 2396
+	born_in_chaos_v1:dark_metal_deposit: 2435
+	born_in_chaos_v1:dark_metal_ingot: 2386
+	born_in_chaos_v1:dark_metal_nugget: 2668
+	born_in_chaos_v1:dark_ritual_dagger: 2394
+	born_in_chaos_v1:dark_rod: 2595
+	born_in_chaos_v1:dark_stained_glass: 2481
+	born_in_chaos_v1:dark_stained_glass_panel: 2482
+	born_in_chaos_v1:dark_upgrade: 2592
+	born_in_chaos_v1:dark_vortex_spawn_egg: 2507
+	born_in_chaos_v1:darkwarblade: 2551
+	born_in_chaos_v1:death_totem: 2390
+	born_in_chaos_v1:decaying_zombie_not_despawn_spawn_egg: 2522
+	born_in_chaos_v1:decaying_zombie_spawn_egg: 2488
+	born_in_chaos_v1:deceived_hopes_icon: 2630
+	born_in_chaos_v1:decrepit_skeleton_spawn_egg: 2486
+	born_in_chaos_v1:diamond_termite_shard: 2379
+	born_in_chaos_v1:diamond_termite_spawn_egg: 2501
+	born_in_chaos_v1:dire_hound_leader_spawn_egg: 2546
+	born_in_chaos_v1:door_knight_not_despawn_spawn_egg: 2523
+	born_in_chaos_v1:door_knight_spawn_egg: 2495
+	born_in_chaos_v1:double_troubleicon: 2623
+	born_in_chaos_v1:dread_hound_not_despawn_spawn_egg: 2527
+	born_in_chaos_v1:dread_hound_spawn_egg: 2508
+	born_in_chaos_v1:elixir_of_vampirism: 2650
+	born_in_chaos_v1:elixirof_ice_barrier: 2698
+	born_in_chaos_v1:elixirof_insect_protection: 2669
+	born_in_chaos_v1:elixirof_wither_resistance: 2667
+	born_in_chaos_v1:empty_fel_lamp: 2484
+	born_in_chaos_v1:eternal_candy: 2683
+	born_in_chaos_v1:ethereal_spirit: 2389
+	born_in_chaos_v1:evil_carved_pumpkin: 2465
+	born_in_chaos_v1:evilometer: 2705
+	born_in_chaos_v1:excessflyswattericon: 2647
+	born_in_chaos_v1:exorcism_icon: 2638
+	born_in_chaos_v1:fallen_chaos_knight_spawn_egg: 2509
+	born_in_chaos_v1:fangofthe_hound_leader: 2547
+	born_in_chaos_v1:fel_lamp: 2485
+	born_in_chaos_v1:fel_soil: 2585
+	born_in_chaos_v1:fel_soil_destructible: 2591
+	born_in_chaos_v1:felsteed_spawn_egg: 2517
+	born_in_chaos_v1:fire_dust: 2380
+	born_in_chaos_v1:fired_black_argillite: 2399
+	born_in_chaos_v1:fired_black_argillite_n: 2416
+	born_in_chaos_v1:firelight_not_despawn_spawn_egg: 2528
+	born_in_chaos_v1:firelight_spawn_egg: 2500
+	born_in_chaos_v1:flaming_evil_pumpkin: 2466
+	born_in_chaos_v1:fragile_scorched_boards: 2444
+	born_in_chaos_v1:fried_maggot: 2553
+	born_in_chaos_v1:frostbitten_blade: 2691
+	born_in_chaos_v1:fused_bone: 2598
+	born_in_chaos_v1:glutton_fish_spawn_egg: 2573
+	born_in_chaos_v1:gnawed_bones: 2455
+	born_in_chaos_v1:good_demoman_icon: 2627
+	born_in_chaos_v1:gravestone_icon: 2643
+	born_in_chaos_v1:great_reaper_axe: 2393
+	born_in_chaos_v1:green_stained_glass: 2476
+	born_in_chaos_v1:green_stained_glass_panel: 2477
+	born_in_chaos_v1:gummy_vampire_teeth: 2676
+	born_in_chaos_v1:hats: 2639
+	born_in_chaos_v1:holiday_candy: 2462
+	born_in_chaos_v1:hound_trap: 2549
+	born_in_chaos_v1:icy_sweetness: 2695
+	born_in_chaos_v1:infected_deepslate_diamond_ore: 2459
+	born_in_chaos_v1:infected_diamond_ore: 2382
+	born_in_chaos_v1:infernal_evil_pumpkin: 2467
+	born_in_chaos_v1:infernal_evil_pumpkin_s: 2468
+	born_in_chaos_v1:infernal_medicine_icon: 2629
+	born_in_chaos_v1:infernal_spirit_spawn_egg: 2587
+	born_in_chaos_v1:intoxicatind_bomb: 2594
+	born_in_chaos_v1:intoxicating_dagger: 2470
+	born_in_chaos_v1:intoxicating_decoction: 2471
+	born_in_chaos_v1:krampus_henchman_spawn_egg: 2703
+	born_in_chaos_v1:krampus_horn: 2700
+	born_in_chaos_v1:krampus_spawn_egg: 2699
+	born_in_chaos_v1:krampuss_bag: 2702
+	born_in_chaos_v1:lifestealer_bone: 2649
+	born_in_chaos_v1:lifestealer_skull: 2670
+	born_in_chaos_v1:lifestealer_spawn_egg: 2646
+	born_in_chaos_v1:lifestealer_true_form_spawn_egg: 2648
+	born_in_chaos_v1:lifeturnedouttobeacomedyicon: 2624
+	born_in_chaos_v1:lord_pumpkinhead_head_spawn_egg: 2584
+	born_in_chaos_v1:lord_pumpkinhead_icon: 2634
+	born_in_chaos_v1:lord_pumpkinhead_spawn_egg: 2578
+	born_in_chaos_v1:lord_pumpkinhead_withouta_horse_spawn_egg: 2582
+	born_in_chaos_v1:lord_pumpkinheads_empty_lamp: 2589
+	born_in_chaos_v1:lord_pumpkinheads_hat_helmet: 2620
+	born_in_chaos_v1:lord_pumpkinheads_lamp: 2588
+	born_in_chaos_v1:lord_the_headless_spawn_egg: 2583
+	born_in_chaos_v1:lords_felsteed_spawn_egg: 2581
+	born_in_chaos_v1:maggot_spawn_egg: 2566
+	born_in_chaos_v1:magical_holiday_candy: 2579
+	born_in_chaos_v1:magicskull: 2378
+	born_in_chaos_v1:marigolds: 2483
+	born_in_chaos_v1:mesh_door: 2376
+	born_in_chaos_v1:mint_candy: 2565
+	born_in_chaos_v1:mint_ice_cream: 2580
+	born_in_chaos_v1:missionary_hat_helmet: 2617
+	born_in_chaos_v1:missionaryicon: 2631
+	born_in_chaos_v1:missioner_spawn_egg: 2609
+	born_in_chaos_v1:monster_flesh: 2538
+	born_in_chaos_v1:monster_skin: 2388
+	born_in_chaos_v1:mossy_black_argillite_brick: 2404
+	born_in_chaos_v1:mossy_black_argillite_brick_n: 2421
+	born_in_chaos_v1:mother_spider_spawn_egg: 2658
+	born_in_chaos_v1:mr_pumpkin_controlled_spawn_egg: 2515
+	born_in_chaos_v1:mr_pumpkin_spawn_egg: 2514
+	born_in_chaos_v1:mrs_pumpkin_spawn_egg: 2686
+	born_in_chaos_v1:nightmare_claw: 2387
+	born_in_chaos_v1:nightmare_mantleofthe_night_boots: 2545
+	born_in_chaos_v1:nightmare_mantleofthe_night_chestplate: 2543
+	born_in_chaos_v1:nightmare_mantleofthe_night_helmet: 2542
+	born_in_chaos_v1:nightmare_mantleofthe_night_leggings: 2544
+	born_in_chaos_v1:nightmare_scythe: 2392
+	born_in_chaos_v1:nightmare_stalker_skull: 2540
+	born_in_chaos_v1:nightmare_stalker_spawn_egg: 2665
+	born_in_chaos_v1:nut_hammer: 2697
+	born_in_chaos_v1:orange_stained_glass: 2474
+	born_in_chaos_v1:orange_stained_glass_panel: 2475
+	born_in_chaos_v1:orbofthe_summoner: 2383
+	born_in_chaos_v1:permafrost_shard: 2690
+	born_in_chaos_v1:phantom_bomb: 2615
+	born_in_chaos_v1:phantom_creeper_copy_spawn_egg: 2494
+	born_in_chaos_v1:phantom_creeper_spawn_egg: 2493
+	born_in_chaos_v1:phantom_powder: 2596
+	born_in_chaos_v1:pieceofdarkmetal: 2384
+	born_in_chaos_v1:pile_of_skulls: 2454
+	born_in_chaos_v1:pileof_dark_metal: 2385
+	born_in_chaos_v1:potion_of_rampage: 2541
+	born_in_chaos_v1:puddleof_stimulation: 2613
+	born_in_chaos_v1:puddleofintoxication: 2548
+	born_in_chaos_v1:pumpkin_bomb_spawn_egg: 2576
+	born_in_chaos_v1:pumpkin_bruiser_spawn_egg: 2687
+	born_in_chaos_v1:pumpkin_bullet: 2611
+	born_in_chaos_v1:pumpkin_dunce_spawn_egg: 2685
+	born_in_chaos_v1:pumpkin_spirit_icon: 2628
+	born_in_chaos_v1:pumpkin_spirit_spawn_egg: 2498
+	born_in_chaos_v1:pumpkinhandgun: 2654
+	born_in_chaos_v1:pumpkinhead_icon: 2633
+	born_in_chaos_v1:pumpkinhead_spawn_egg: 2520
+	born_in_chaos_v1:pumpkinstaffa: 2653
+	born_in_chaos_v1:purple_stained_glass: 2478
+	born_in_chaos_v1:purple_stained_glass_panel: 2479
+	born_in_chaos_v1:restless_spirit_spawn_egg: 2496
+	born_in_chaos_v1:riding_felsteed_spawn_egg: 2521
+	born_in_chaos_v1:riding_lords_felsteed_spawn_egg: 2590
+	born_in_chaos_v1:river_mint: 2564
+	born_in_chaos_v1:rotten_fish: 2554
+	born_in_chaos_v1:rotten_infernal_pumpkin: 2682
+	born_in_chaos_v1:rotten_soil: 2642
+	born_in_chaos_v1:scarlet_persecutor_spawn_egg: 2510
+	born_in_chaos_v1:scarlet_stained_glass: 2472
+	born_in_chaos_v1:scarlet_stained_glass_panel: 2473
+	born_in_chaos_v1:scorched_log: 2437
+	born_in_chaos_v1:scorched_planks: 2443
+	born_in_chaos_v1:scorched_planks_button: 2449
+	born_in_chaos_v1:scorched_planks_door: 2452
+	born_in_chaos_v1:scorched_planks_fence: 2447
+	born_in_chaos_v1:scorched_planks_fence_gate: 2448
+	born_in_chaos_v1:scorched_planks_pressure_plates: 2450
+	born_in_chaos_v1:scorched_planks_slab: 2446
+	born_in_chaos_v1:scorched_planks_stairs: 2445
+	born_in_chaos_v1:scorched_planks_trapdoor: 2451
+	born_in_chaos_v1:scorched_wood: 2438
+	born_in_chaos_v1:sea_terror_eye: 2557
+	born_in_chaos_v1:sea_terror_stomach: 2558
+	born_in_chaos_v1:seared_spirit_not_despawn_spawn_egg: 2537
+	born_in_chaos_v1:seared_spirit_spawn_egg: 2499
+	born_in_chaos_v1:seedof_chaos: 2381
+	born_in_chaos_v1:senor_pumpkin_spawn_egg: 2577
+	born_in_chaos_v1:serpumpkinhead_m: 2463
+	born_in_chaos_v1:shakeand_mixicon: 2625
+	born_in_chaos_v1:sharpened_dark_metal_sword: 2458
+	born_in_chaos_v1:shattered_skull: 2375
+	born_in_chaos_v1:shell_mace: 2560
+	born_in_chaos_v1:siamese_skeletons_spawn_egg: 2606
+	born_in_chaos_v1:siamese_skeletonsleft_spawn_egg: 2607
+	born_in_chaos_v1:siamese_skeletonsright_spawn_egg: 2608
+	born_in_chaos_v1:sir_pumpkinhead_spawn_egg: 2516
+	born_in_chaos_v1:sir_pumpkinhead_without_horse_spawn_egg: 2518
+	born_in_chaos_v1:sir_the_headless_spawn_egg: 2519
+	born_in_chaos_v1:skeleton_demoman_spawn_egg: 2487
+	born_in_chaos_v1:skeleton_thrasher_not_despawn_spawn_egg: 2526
+	born_in_chaos_v1:skeleton_thrasher_spawn_egg: 2497
+	born_in_chaos_v1:skullbreaker_hammer: 2395
+	born_in_chaos_v1:smoked_fish: 2555
+	born_in_chaos_v1:smoked_flesh: 2377
+	born_in_chaos_v1:smoked_monster_flesh: 2539
+	born_in_chaos_v1:smoldering_infernal_ember: 2679
+	born_in_chaos_v1:smoldering_scorched_log: 2439
+	born_in_chaos_v1:smoldering_scorched_wood: 2440
+	born_in_chaos_v1:soul_cutlass: 2461
+	born_in_chaos_v1:soulbane: 2575
+	born_in_chaos_v1:spawn_structure_mound_hounds: 2536
+	born_in_chaos_v1:spawn_structures_clown_cart: 2535
+	born_in_chaos_v1:spawn_structures_dark_tower: 2533
+	born_in_chaos_v1:spawn_structures_farm: 2534
+	born_in_chaos_v1:spawn_structures_firewell: 2531
+	born_in_chaos_v1:spawn_structures_lookout_tower: 2532
+	born_in_chaos_v1:spider_bite_sword: 2661
+	born_in_chaos_v1:spider_mandible: 2660
+	born_in_chaos_v1:spiny_shell: 2556
+	born_in_chaos_v1:spiny_shell_armor_chestplate: 2563
+	born_in_chaos_v1:spiny_shell_armor_helmet: 2562
+	born_in_chaos_v1:spiny_shell_trap: 2559
+	born_in_chaos_v1:spirit_guide_assistant_spawn_egg: 2512
+	born_in_chaos_v1:spirit_guide_spawn_egg: 2511
+	born_in_chaos_v1:spirit_guideicon: 2626
+	born_in_chaos_v1:spiritof_chaos_spawn_egg: 2637
+	born_in_chaos_v1:spiritual_dust: 2635
+	born_in_chaos_v1:spiritual_gingerbread: 2696
+	born_in_chaos_v1:spiritual_guide_sombrero_helmet: 2618
+	born_in_chaos_v1:spiritual_sword: 2460
+	born_in_chaos_v1:spooky_snowman_head: 2689
+	born_in_chaos_v1:spruce_cowboy_in_the_moonlighticon: 2636
+	born_in_chaos_v1:squireofthedarklordicon: 2622
+	born_in_chaos_v1:staff_of_magic_arrows: 2651
+	born_in_chaos_v1:staffof_blindness: 2593
+	born_in_chaos_v1:stained_black_argillite_brick: 2405
+	born_in_chaos_v1:stained_black_argillite_brick_n: 2422
+	born_in_chaos_v1:stimulating_bomb: 2612
+	born_in_chaos_v1:stimulating_decoction: 2610
+	born_in_chaos_v1:stop_hammer: 2674
+	born_in_chaos_v1:stormcallers_horn: 2701
+	born_in_chaos_v1:stripped_scorched_log: 2441
+	born_in_chaos_v1:stripped_scorched_wood: 2442
+	born_in_chaos_v1:supreme_bonescaller_not_despawn_spawn_egg: 2525
+	born_in_chaos_v1:supreme_bonescaller_spawn_egg: 2505
+	born_in_chaos_v1:supreme_bonescaller_stage_2_spawn_egg: 2506
+	born_in_chaos_v1:supreme_measure: 2434
+	born_in_chaos_v1:swarmer_spawn_egg: 2571
+	born_in_chaos_v1:sweet_axe: 2681
+	born_in_chaos_v1:sweet_sword: 2680
+	born_in_chaos_v1:thornshell_crab_spawn_egg: 2572
+	born_in_chaos_v1:tombstone_2003wise: 2655
+	born_in_chaos_v1:tombstone_dark_titan_066: 2640
+	born_in_chaos_v1:tombstone_derivas: 2672
+	born_in_chaos_v1:tombstone_fubuki_banzai: 2673
+	born_in_chaos_v1:tombstone_orion: 2656
+	born_in_chaos_v1:tombstone_petasi: 2641
+	born_in_chaos_v1:transformative_flower: 2645
+	born_in_chaos_v1:transmuting_elixir: 2586
+	born_in_chaos_v1:trident_hayfork: 2561
+	born_in_chaos_v1:webbed_cobblestone: 2663
+	born_in_chaos_v1:wood_splitter_axe: 2597
+	born_in_chaos_v1:zombie_bruiser_spawn_egg: 2574
+	born_in_chaos_v1:zombie_clown_not_despawn_spawn_egg: 2529
+	born_in_chaos_v1:zombie_clown_spawn_egg: 2513
+	born_in_chaos_v1:zombie_fisherman_spawn_egg: 2570
+	born_in_chaos_v1:zombie_lumberjack_spawn_egg: 2605
+
+[13Mar2025 17:03:28.201] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:mob_effect
+	born_in_chaos_v1:bad_feeling: 102
+	born_in_chaos_v1:barbedattack: 75
+	born_in_chaos_v1:block_break: 66
+	born_in_chaos_v1:bone_barrier: 83
+	born_in_chaos_v1:bone_chilling: 103
+	born_in_chaos_v1:bone_fracture: 74
+	born_in_chaos_v1:cursed_mark: 67
+	born_in_chaos_v1:curseofthe_boat: 96
+	born_in_chaos_v1:dark_splash: 90
+	born_in_chaos_v1:dark_ward: 100
+	born_in_chaos_v1:detonation: 71
+	born_in_chaos_v1:dogtruce: 73
+	born_in_chaos_v1:fish_breath: 79
+	born_in_chaos_v1:furious_rampage: 64
+	born_in_chaos_v1:gaze_of_terror: 70
+	born_in_chaos_v1:ice_barrier: 104
+	born_in_chaos_v1:infernal_flame: 80
+	born_in_chaos_v1:infestationof_flies: 77
+	born_in_chaos_v1:insect_protection: 99
+	born_in_chaos_v1:intoxication: 69
+	born_in_chaos_v1:jawattack: 85
+	born_in_chaos_v1:lifesteal: 89
+	born_in_chaos_v1:light_rampage: 61
+	born_in_chaos_v1:living_bomb: 81
+	born_in_chaos_v1:living_cocoon: 93
+	born_in_chaos_v1:living_cocoon_player_side: 94
+	born_in_chaos_v1:lost_items: 106
+	born_in_chaos_v1:magic_depletion: 59
+	born_in_chaos_v1:medium_rampage: 62
+	born_in_chaos_v1:minion_summon: 107
+	born_in_chaos_v1:myiasis: 78
+	born_in_chaos_v1:obsession: 88
+	born_in_chaos_v1:rampant_rampage: 65
+	born_in_chaos_v1:rotten_smell: 76
+	born_in_chaos_v1:sacrifice: 72
+	born_in_chaos_v1:snow_storm: 105
+	born_in_chaos_v1:soul_stratification: 68
+	born_in_chaos_v1:stimulatingsurge: 87
+	born_in_chaos_v1:stimulation: 86
+	born_in_chaos_v1:stranglehold: 91
+	born_in_chaos_v1:strong_rampage: 63
+	born_in_chaos_v1:stun: 60
+	born_in_chaos_v1:stunning_strike: 95
+	born_in_chaos_v1:sweet_madness: 101
+	born_in_chaos_v1:terrifying_presence: 97
+	born_in_chaos_v1:undead_summonun: 84
+	born_in_chaos_v1:unity_with_darkness: 82
+	born_in_chaos_v1:vampiric_touch: 92
+	born_in_chaos_v1:wither_resistance: 98
+
+[13Mar2025 17:03:28.202] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:potion
+	born_in_chaos_v1:intoxication_potion: 44
+	born_in_chaos_v1:potion_of_living_cocoon: 46
+	born_in_chaos_v1:potion_of_magical_depletion: 43
+	born_in_chaos_v1:stimulating_potion: 45
+
+[13Mar2025 17:03:28.203] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	born_in_chaos_v1:bonk: 1656
+	born_in_chaos_v1:bonk_hit: 1657
+	born_in_chaos_v1:brute_zombie_attack: 1615
+	born_in_chaos_v1:brute_zombie_step: 1616
+	born_in_chaos_v1:chaos_spirit_haunt: 1636
+	born_in_chaos_v1:charm_of_endurance_use: 1624
+	born_in_chaos_v1:charm_of_protection_use: 1627
+	born_in_chaos_v1:charm_of_rage_use: 1626
+	born_in_chaos_v1:charm_of_stealth_use: 1623
+	born_in_chaos_v1:charm_of_strenght_use: 1625
+	born_in_chaos_v1:clown_death: 1591
+	born_in_chaos_v1:clown_hurt: 1590
+	born_in_chaos_v1:clown_step: 1589
+	born_in_chaos_v1:corpse_fly_ambient: 1593
+	born_in_chaos_v1:corpse_fly_ambient2: 1599
+	born_in_chaos_v1:corpse_fly_death: 1594
+	born_in_chaos_v1:corpse_fly_death2: 1601
+	born_in_chaos_v1:corpse_fly_hurt: 1595
+	born_in_chaos_v1:corpse_fly_hurt2: 1600
+	born_in_chaos_v1:crab_death: 1606
+	born_in_chaos_v1:crab_hurt: 1609
+	born_in_chaos_v1:crab_idle: 1607
+	born_in_chaos_v1:crab_step: 1608
+	born_in_chaos_v1:dark_warlblade_atak: 1587
+	born_in_chaos_v1:dfjn: 1534
+	born_in_chaos_v1:door1: 1535
+	born_in_chaos_v1:door2: 1536
+	born_in_chaos_v1:doorblokc: 1569
+	born_in_chaos_v1:doorblokc2: 1570
+	born_in_chaos_v1:doorsdisc: 1572
+	born_in_chaos_v1:fallen_attack: 1552
+	born_in_chaos_v1:fallen_curse_mark: 1553
+	born_in_chaos_v1:fallen_death: 1554
+	born_in_chaos_v1:fallen_hurt: 1555
+	born_in_chaos_v1:fallen_idle: 1556
+	born_in_chaos_v1:fallen_step: 1557
+	born_in_chaos_v1:fish_slap: 1602
+	born_in_chaos_v1:fly_move: 1614
+	born_in_chaos_v1:gadfly_death: 1598
+	born_in_chaos_v1:gadfly_hurt: 1597
+	born_in_chaos_v1:gadfly_idle: 1596
+	born_in_chaos_v1:glutton_fish_ambient: 1610
+	born_in_chaos_v1:glutton_fish_attack: 1611
+	born_in_chaos_v1:glutton_fish_death: 1613
+	born_in_chaos_v1:glutton_fish_hurt: 1612
+	born_in_chaos_v1:hah: 1567
+	born_in_chaos_v1:haha: 1568
+	born_in_chaos_v1:haha_lord: 1655
+	born_in_chaos_v1:halloween: 1571
+	born_in_chaos_v1:hound_ambient: 1583
+	born_in_chaos_v1:hound_attack: 1584
+	born_in_chaos_v1:hound_death: 1581
+	born_in_chaos_v1:hound_hit: 1582
+	born_in_chaos_v1:houndtrap: 1586
+	born_in_chaos_v1:krampus_alert: 1664
+	born_in_chaos_v1:krampus_alert_close: 1665
+	born_in_chaos_v1:krampus_alert_far: 1663
+	born_in_chaos_v1:krampus_blow: 1661
+	born_in_chaos_v1:krampus_death: 1658
+	born_in_chaos_v1:krampus_horn_use: 1662
+	born_in_chaos_v1:krampus_hurt: 1666
+	born_in_chaos_v1:krampus_idle: 1660
+	born_in_chaos_v1:krampus_roar: 1659
+	born_in_chaos_v1:krampus_step: 1667
+	born_in_chaos_v1:lifestealer_death: 1643
+	born_in_chaos_v1:lifestealer_hurt: 1641
+	born_in_chaos_v1:lifestealer_idle: 1642
+	born_in_chaos_v1:lifestealer_scream: 1644
+	born_in_chaos_v1:lifestealer_scream_ap: 1645
+	born_in_chaos_v1:magic_staff_shoot: 1646
+	born_in_chaos_v1:minion_blow: 1668
+	born_in_chaos_v1:minion_death: 1669
+	born_in_chaos_v1:minion_hurt: 1670
+	born_in_chaos_v1:minion_idle: 1671
+	born_in_chaos_v1:missionary_alert: 1637
+	born_in_chaos_v1:missionary_death: 1628
+	born_in_chaos_v1:missionary_hurt: 1629
+	born_in_chaos_v1:missionary_idle: 1630
+	born_in_chaos_v1:missionary_shoot: 1634
+	born_in_chaos_v1:missionary_spawn_mobs: 1631
+	born_in_chaos_v1:missionary_step: 1632
+	born_in_chaos_v1:missionary_stun: 1652
+	born_in_chaos_v1:missionary_teleport: 1633
+	born_in_chaos_v1:mother_spider_hurt: 1653
+	born_in_chaos_v1:mother_spider_idle: 1651
+	born_in_chaos_v1:mother_spider_step: 1650
+	born_in_chaos_v1:nightmare_stalker_roar: 1546
+	born_in_chaos_v1:nsstep: 1638
+	born_in_chaos_v1:obsession: 1635
+	born_in_chaos_v1:persecutor_death: 1558
+	born_in_chaos_v1:persecutor_hurt: 1559
+	born_in_chaos_v1:persecutor_idle: 1560
+	born_in_chaos_v1:persecutor_scream: 1561
+	born_in_chaos_v1:pumpkin_hit: 1648
+	born_in_chaos_v1:pumpkin_spirit_death: 1579
+	born_in_chaos_v1:pumpkin_spirit_hurt: 1578
+	born_in_chaos_v1:pumpkin_staff_shoot: 1647
+	born_in_chaos_v1:pumpkinhead_bomb_curse: 1622
+	born_in_chaos_v1:pumpkinhead_gun_fire: 1621
+	born_in_chaos_v1:pumpkinhead_reload: 1620
+	born_in_chaos_v1:restless_spirit_death: 1540
+	born_in_chaos_v1:restless_spirit_hurt: 1539
+	born_in_chaos_v1:restless_spirit_idle: 1538
+	born_in_chaos_v1:seared_spirit_death: 1585
+	born_in_chaos_v1:serpumpkinheadm: 1537
+	born_in_chaos_v1:skeleton_trasher_attack: 1542
+	born_in_chaos_v1:skeleton_trasher_block1: 1543
+	born_in_chaos_v1:skeleton_trasher_block2: 1544
+	born_in_chaos_v1:skeleton_trasher_block3: 1545
+	born_in_chaos_v1:skeleton_trasher_step: 1541
+	born_in_chaos_v1:spider_mother_death: 1654
+	born_in_chaos_v1:spider_splash: 1649
+	born_in_chaos_v1:spirit_idle: 1547
+	born_in_chaos_v1:stalker_dead: 1574
+	born_in_chaos_v1:stalker_death: 1548
+	born_in_chaos_v1:stalker_death2: 1562
+	born_in_chaos_v1:stalker_hit: 1576
+	born_in_chaos_v1:stalker_hurt: 1577
+	born_in_chaos_v1:stalker_roar: 1573
+	born_in_chaos_v1:stalker_roar_distant: 1580
+	born_in_chaos_v1:stalker_step: 1575
+	born_in_chaos_v1:step5: 1639
+	born_in_chaos_v1:step_st: 1640
+	born_in_chaos_v1:stomach_open: 1588
+	born_in_chaos_v1:swarmer_death: 1605
+	born_in_chaos_v1:swarmer_hurt: 1604
+	born_in_chaos_v1:swarmer_idle: 1603
+	born_in_chaos_v1:vortex_death1: 1563
+	born_in_chaos_v1:vortex_hurt1: 1549
+	born_in_chaos_v1:vortex_hurt11: 1565
+	born_in_chaos_v1:vortex_hurt2: 1550
+	born_in_chaos_v1:vortex_hurt21: 1566
+	born_in_chaos_v1:vortex_idle1: 1551
+	born_in_chaos_v1:vortex_idle2: 1564
+	born_in_chaos_v1:zombie_brute_death: 1617
+	born_in_chaos_v1:zombie_brute_hurt: 1618
+	born_in_chaos_v1:zombie_brute_idle: 1619
+	born_in_chaos_v1:zombie_clown_attack: 1592
+
+[13Mar2025 17:03:28.206] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 714 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[13Mar2025 17:03:28.206] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    born_in_chaos_v1:bonk
+    born_in_chaos_v1:bonk_hit
+    born_in_chaos_v1:brute_zombie_attack
+    born_in_chaos_v1:brute_zombie_step
+    born_in_chaos_v1:chaos_spirit_haunt
+    born_in_chaos_v1:charm_of_endurance_use
+    born_in_chaos_v1:charm_of_protection_use
+    born_in_chaos_v1:charm_of_rage_use
+    born_in_chaos_v1:charm_of_stealth_use
+    born_in_chaos_v1:charm_of_strenght_use
+    born_in_chaos_v1:clown_death
+    born_in_chaos_v1:clown_hurt
+    born_in_chaos_v1:clown_step
+    born_in_chaos_v1:corpse_fly_ambient
+    born_in_chaos_v1:corpse_fly_ambient2
+    born_in_chaos_v1:corpse_fly_death
+    born_in_chaos_v1:corpse_fly_death2
+    born_in_chaos_v1:corpse_fly_hurt
+    born_in_chaos_v1:corpse_fly_hurt2
+    born_in_chaos_v1:crab_death
+    born_in_chaos_v1:crab_hurt
+    born_in_chaos_v1:crab_idle
+    born_in_chaos_v1:crab_step
+    born_in_chaos_v1:dark_warlblade_atak
+    born_in_chaos_v1:dfjn
+    born_in_chaos_v1:door1
+    born_in_chaos_v1:door2
+    born_in_chaos_v1:doorblokc
+    born_in_chaos_v1:doorblokc2
+    born_in_chaos_v1:doorsdisc
+    born_in_chaos_v1:fallen_attack
+    born_in_chaos_v1:fallen_curse_mark
+    born_in_chaos_v1:fallen_death
+    born_in_chaos_v1:fallen_hurt
+    born_in_chaos_v1:fallen_idle
+    born_in_chaos_v1:fallen_step
+    born_in_chaos_v1:fish_slap
+    born_in_chaos_v1:fly_move
+    born_in_chaos_v1:gadfly_death
+    born_in_chaos_v1:gadfly_hurt
+    born_in_chaos_v1:gadfly_idle
+    born_in_chaos_v1:glutton_fish_ambient
+    born_in_chaos_v1:glutton_fish_attack
+    born_in_chaos_v1:glutton_fish_death
+    born_in_chaos_v1:glutton_fish_hurt
+    born_in_chaos_v1:hah
+    born_in_chaos_v1:haha
+    born_in_chaos_v1:haha_lord
+    born_in_chaos_v1:halloween
+    born_in_chaos_v1:hound_ambient
+    born_in_chaos_v1:hound_attack
+    born_in_chaos_v1:hound_death
+    born_in_chaos_v1:hound_hit
+    born_in_chaos_v1:houndtrap
+    born_in_chaos_v1:krampus_alert
+    born_in_chaos_v1:krampus_alert_close
+    born_in_chaos_v1:krampus_alert_far
+    born_in_chaos_v1:krampus_blow
+    born_in_chaos_v1:krampus_death
+    born_in_chaos_v1:krampus_horn_use
+    born_in_chaos_v1:krampus_hurt
+    born_in_chaos_v1:krampus_idle
+    born_in_chaos_v1:krampus_roar
+    born_in_chaos_v1:krampus_step
+    born_in_chaos_v1:lifestealer_death
+    born_in_chaos_v1:lifestealer_hurt
+    born_in_chaos_v1:lifestealer_idle
+    born_in_chaos_v1:lifestealer_scream
+    born_in_chaos_v1:lifestealer_scream_ap
+    born_in_chaos_v1:magic_staff_shoot
+    born_in_chaos_v1:minion_blow
+    born_in_chaos_v1:minion_death
+    born_in_chaos_v1:minion_hurt
+    born_in_chaos_v1:minion_idle
+    born_in_chaos_v1:missionary_alert
+    born_in_chaos_v1:missionary_death
+    born_in_chaos_v1:missionary_hurt
+    born_in_chaos_v1:missionary_idle
+    born_in_chaos_v1:missionary_shoot
+    born_in_chaos_v1:missionary_spawn_mobs
+    born_in_chaos_v1:missionary_step
+    born_in_chaos_v1:missionary_stun
+    born_in_chaos_v1:missionary_teleport
+    born_in_chaos_v1:mother_spider_hurt
+    born_in_chaos_v1:mother_spider_idle
+    born_in_chaos_v1:mother_spider_step
+    born_in_chaos_v1:nightmare_stalker_roar
+    born_in_chaos_v1:nsstep
+    born_in_chaos_v1:obsession
+    born_in_chaos_v1:persecutor_death
+    born_in_chaos_v1:persecutor_hurt
+    born_in_chaos_v1:persecutor_idle
+    born_in_chaos_v1:persecutor_scream
+    born_in_chaos_v1:pumpkin_hit
+    born_in_chaos_v1:pumpkin_spirit_death
+    born_in_chaos_v1:pumpkin_spirit_hurt
+    born_in_chaos_v1:pumpkin_staff_shoot
+    born_in_chaos_v1:pumpkinhead_bomb_curse
+    born_in_chaos_v1:pumpkinhead_gun_fire
+    born_in_chaos_v1:pumpkinhead_reload
+    born_in_chaos_v1:restless_spirit_death
+    born_in_chaos_v1:restless_spirit_hurt
+    born_in_chaos_v1:restless_spirit_idle
+    born_in_chaos_v1:seared_spirit_death
+    born_in_chaos_v1:serpumpkinheadm
+    born_in_chaos_v1:skeleton_trasher_attack
+    born_in_chaos_v1:skeleton_trasher_block1
+    born_in_chaos_v1:skeleton_trasher_block2
+    born_in_chaos_v1:skeleton_trasher_block3
+    born_in_chaos_v1:skeleton_trasher_step
+    born_in_chaos_v1:spider_mother_death
+    born_in_chaos_v1:spider_splash
+    born_in_chaos_v1:spirit_idle
+    born_in_chaos_v1:stalker_dead
+    born_in_chaos_v1:stalker_death
+    born_in_chaos_v1:stalker_death2
+    born_in_chaos_v1:stalker_hit
+    born_in_chaos_v1:stalker_hurt
+    born_in_chaos_v1:stalker_roar
+    born_in_chaos_v1:stalker_roar_distant
+    born_in_chaos_v1:stalker_step
+    born_in_chaos_v1:step5
+    born_in_chaos_v1:step_st
+    born_in_chaos_v1:stomach_open
+    born_in_chaos_v1:swarmer_death
+    born_in_chaos_v1:swarmer_hurt
+    born_in_chaos_v1:swarmer_idle
+    born_in_chaos_v1:vortex_death1
+    born_in_chaos_v1:vortex_hurt1
+    born_in_chaos_v1:vortex_hurt11
+    born_in_chaos_v1:vortex_hurt2
+    born_in_chaos_v1:vortex_hurt21
+    born_in_chaos_v1:vortex_idle1
+    born_in_chaos_v1:vortex_idle2
+    born_in_chaos_v1:zombie_brute_death
+    born_in_chaos_v1:zombie_brute_hurt
+    born_in_chaos_v1:zombie_brute_idle
+    born_in_chaos_v1:zombie_clown_attack
+
+Missing minecraft:item:
+    born_in_chaos_v1:ai
+    born_in_chaos_v1:all_charm
+    born_in_chaos_v1:anluka_doors
+    born_in_chaos_v1:argillite_lamp
+    born_in_chaos_v1:armor_plate_from_dark_metal
+    born_in_chaos_v1:baby_skeleton_minion_spawn_egg
+    born_in_chaos_v1:baby_skeleton_spawn_egg
+    born_in_chaos_v1:baby_spider_controlled_spawn_egg
+    born_in_chaos_v1:baby_spider_spawn_egg
+    born_in_chaos_v1:bagof_candy
+    born_in_chaos_v1:barrel_zombie_spawn_egg
+    born_in_chaos_v1:birch_branches
+    born_in_chaos_v1:black_argillite
+    born_in_chaos_v1:black_argillite_brick
+    born_in_chaos_v1:black_argillite_brick_n
+    born_in_chaos_v1:black_argillite_brick_slab
+    born_in_chaos_v1:black_argillite_brick_slab_n
+    born_in_chaos_v1:black_argillite_brick_stairs
+    born_in_chaos_v1:black_argillite_brick_stairs_n
+    born_in_chaos_v1:black_argillite_brick_wall
+    born_in_chaos_v1:black_argillite_brick_wall_n
+    born_in_chaos_v1:black_argillite_button
+    born_in_chaos_v1:black_argillite_column
+    born_in_chaos_v1:black_argillite_column_n
+    born_in_chaos_v1:black_argillite_column_slab
+    born_in_chaos_v1:black_argillite_column_slab_n
+    born_in_chaos_v1:black_argillite_n
+    born_in_chaos_v1:black_argillite_slab
+    born_in_chaos_v1:black_argillite_slab_n
+    born_in_chaos_v1:black_argillite_stairs
+    born_in_chaos_v1:black_argillite_stairs_n
+    born_in_chaos_v1:black_argillite_wall
+    born_in_chaos_v1:black_argillite_wall_n
+    born_in_chaos_v1:black_argillitepressureplate
+    born_in_chaos_v1:bloody_gadfly_eye
+    born_in_chaos_v1:bloody_gadfly_spawn_egg
+    born_in_chaos_v1:bone_handle
+    born_in_chaos_v1:bone_heart
+    born_in_chaos_v1:bone_imp_minion_spawn_egg
+    born_in_chaos_v1:bone_imp_spawn_egg
+    born_in_chaos_v1:bonescaller_not_despawn_spawn_egg
+    born_in_chaos_v1:bonescaller_spawn_egg
+    born_in_chaos_v1:bonescaller_staff
+    born_in_chaos_v1:bottle_of_magical_energy
+    born_in_chaos_v1:bundle_of_bones
+    born_in_chaos_v1:burythemall_icon
+    born_in_chaos_v1:c_black_argillite_brick_n
+    born_in_chaos_v1:caramel_pepper
+    born_in_chaos_v1:carved_black_argillite
+    born_in_chaos_v1:carved_black_argillite_n
+    born_in_chaos_v1:chaos_component
+    born_in_chaos_v1:chaos_icon
+    born_in_chaos_v1:charmof_endurance
+    born_in_chaos_v1:charmof_fury
+    born_in_chaos_v1:charmof_power
+    born_in_chaos_v1:charmof_resistance
+    born_in_chaos_v1:charmof_stealth
+    born_in_chaos_v1:chipped_black_argillite_brick
+    born_in_chaos_v1:chocolate_heart
+    born_in_chaos_v1:closed_hound_trap
+    born_in_chaos_v1:cobweb_cover
+    born_in_chaos_v1:coffee_candy
+    born_in_chaos_v1:controlled_baby_skeleton_spawn_egg
+    born_in_chaos_v1:controlled_spiritual_assistant_spawn_egg
+    born_in_chaos_v1:corpse_fish_spawn_egg
+    born_in_chaos_v1:corpse_fly_spawn_egg
+    born_in_chaos_v1:corpse_maggot
+    born_in_chaos_v1:creepy_cookies_with_milk
+    born_in_chaos_v1:creepy_gift
+    born_in_chaos_v1:creepy_nutcracker
+    born_in_chaos_v1:cultivated_pumpkin
+    born_in_chaos_v1:cursed_scarlet_ornate_glass_pane
+    born_in_chaos_v1:damned_demomans_hat_helmet
+    born_in_chaos_v1:dark_atrium
+    born_in_chaos_v1:dark_charge
+    born_in_chaos_v1:dark_grid
+    born_in_chaos_v1:dark_ice
+    born_in_chaos_v1:dark_metal_armor_boots
+    born_in_chaos_v1:dark_metal_armor_chestplate
+    born_in_chaos_v1:dark_metal_armor_helmet
+    born_in_chaos_v1:dark_metal_armor_leggings
+    born_in_chaos_v1:dark_metal_block
+    born_in_chaos_v1:dark_metal_deposit
+    born_in_chaos_v1:dark_metal_ingot
+    born_in_chaos_v1:dark_metal_nugget
+    born_in_chaos_v1:dark_ritual_dagger
+    born_in_chaos_v1:dark_rod
+    born_in_chaos_v1:dark_stained_glass
+    born_in_chaos_v1:dark_stained_glass_panel
+    born_in_chaos_v1:dark_upgrade
+    born_in_chaos_v1:dark_vortex_spawn_egg
+    born_in_chaos_v1:darkwarblade
+    born_in_chaos_v1:death_totem
+    born_in_chaos_v1:decaying_zombie_not_despawn_spawn_egg
+    born_in_chaos_v1:decaying_zombie_spawn_egg
+    born_in_chaos_v1:deceived_hopes_icon
+    born_in_chaos_v1:decrepit_skeleton_spawn_egg
+    born_in_chaos_v1:diamond_termite_shard
+    born_in_chaos_v1:diamond_termite_spawn_egg
+    born_in_chaos_v1:dire_hound_leader_spawn_egg
+    born_in_chaos_v1:door_knight_not_despawn_spawn_egg
+    born_in_chaos_v1:door_knight_spawn_egg
+    born_in_chaos_v1:double_troubleicon
+    born_in_chaos_v1:dread_hound_not_despawn_spawn_egg
+    born_in_chaos_v1:dread_hound_spawn_egg
+    born_in_chaos_v1:elixir_of_vampirism
+    born_in_chaos_v1:elixirof_ice_barrier
+    born_in_chaos_v1:elixirof_insect_protection
+    born_in_chaos_v1:elixirof_wither_resistance
+    born_in_chaos_v1:empty_fel_lamp
+    born_in_chaos_v1:eternal_candy
+    born_in_chaos_v1:ethereal_spirit
+    born_in_chaos_v1:evil_carved_pumpkin
+    born_in_chaos_v1:evilometer
+    born_in_chaos_v1:excessflyswattericon
+    born_in_chaos_v1:exorcism_icon
+    born_in_chaos_v1:fallen_chaos_knight_spawn_egg
+    born_in_chaos_v1:fangofthe_hound_leader
+    born_in_chaos_v1:fel_lamp
+    born_in_chaos_v1:fel_soil
+    born_in_chaos_v1:fel_soil_destructible
+    born_in_chaos_v1:felsteed_spawn_egg
+    born_in_chaos_v1:fire_dust
+    born_in_chaos_v1:fired_black_argillite
+    born_in_chaos_v1:fired_black_argillite_n
+    born_in_chaos_v1:firelight_not_despawn_spawn_egg
+    born_in_chaos_v1:firelight_spawn_egg
+    born_in_chaos_v1:flaming_evil_pumpkin
+    born_in_chaos_v1:fragile_scorched_boards
+    born_in_chaos_v1:fried_maggot
+    born_in_chaos_v1:frostbitten_blade
+    born_in_chaos_v1:fused_bone
+    born_in_chaos_v1:glutton_fish_spawn_egg
+    born_in_chaos_v1:gnawed_bones
+    born_in_chaos_v1:good_demoman_icon
+    born_in_chaos_v1:gravestone_icon
+    born_in_chaos_v1:great_reaper_axe
+    born_in_chaos_v1:green_stained_glass
+    born_in_chaos_v1:green_stained_glass_panel
+    born_in_chaos_v1:gummy_vampire_teeth
+    born_in_chaos_v1:hats
+    born_in_chaos_v1:holiday_candy
+    born_in_chaos_v1:hound_trap
+    born_in_chaos_v1:icy_sweetness
+    born_in_chaos_v1:infected_deepslate_diamond_ore
+    born_in_chaos_v1:infected_diamond_ore
+    born_in_chaos_v1:infernal_evil_pumpkin
+    born_in_chaos_v1:infernal_evil_pumpkin_s
+    born_in_chaos_v1:infernal_medicine_icon
+    born_in_chaos_v1:infernal_spirit_spawn_egg
+    born_in_chaos_v1:intoxicatind_bomb
+    born_in_chaos_v1:intoxicating_dagger
+    born_in_chaos_v1:intoxicating_decoction
+    born_in_chaos_v1:krampus_henchman_spawn_egg
+    born_in_chaos_v1:krampus_horn
+    born_in_chaos_v1:krampus_spawn_egg
+    born_in_chaos_v1:krampuss_bag
+    born_in_chaos_v1:lifestealer_bone
+    born_in_chaos_v1:lifestealer_skull
+    born_in_chaos_v1:lifestealer_spawn_egg
+    born_in_chaos_v1:lifestealer_true_form_spawn_egg
+    born_in_chaos_v1:lifeturnedouttobeacomedyicon
+    born_in_chaos_v1:lord_pumpkinhead_head_spawn_egg
+    born_in_chaos_v1:lord_pumpkinhead_icon
+    born_in_chaos_v1:lord_pumpkinhead_spawn_egg
+    born_in_chaos_v1:lord_pumpkinhead_withouta_horse_spawn_egg
+    born_in_chaos_v1:lord_pumpkinheads_empty_lamp
+    born_in_chaos_v1:lord_pumpkinheads_hat_helmet
+    born_in_chaos_v1:lord_pumpkinheads_lamp
+    born_in_chaos_v1:lord_the_headless_spawn_egg
+    born_in_chaos_v1:lords_felsteed_spawn_egg
+    born_in_chaos_v1:maggot_spawn_egg
+    born_in_chaos_v1:magical_holiday_candy
+    born_in_chaos_v1:magicskull
+    born_in_chaos_v1:marigolds
+    born_in_chaos_v1:mesh_door
+    born_in_chaos_v1:mint_candy
+    born_in_chaos_v1:mint_ice_cream
+    born_in_chaos_v1:missionary_hat_helmet
+    born_in_chaos_v1:missionaryicon
+    born_in_chaos_v1:missioner_spawn_egg
+    born_in_chaos_v1:monster_flesh
+    born_in_chaos_v1:monster_skin
+    born_in_chaos_v1:mossy_black_argillite_brick
+    born_in_chaos_v1:mossy_black_argillite_brick_n
+    born_in_chaos_v1:mother_spider_spawn_egg
+    born_in_chaos_v1:mr_pumpkin_controlled_spawn_egg
+    born_in_chaos_v1:mr_pumpkin_spawn_egg
+    born_in_chaos_v1:mrs_pumpkin_spawn_egg
+    born_in_chaos_v1:nightmare_claw
+    born_in_chaos_v1:nightmare_mantleofthe_night_boots
+    born_in_chaos_v1:nightmare_mantleofthe_night_chestplate
+    born_in_chaos_v1:nightmare_mantleofthe_night_helmet
+    born_in_chaos_v1:nightmare_mantleofthe_night_leggings
+    born_in_chaos_v1:nightmare_scythe
+    born_in_chaos_v1:nightmare_stalker_skull
+    born_in_chaos_v1:nightmare_stalker_spawn_egg
+    born_in_chaos_v1:nut_hammer
+    born_in_chaos_v1:orange_stained_glass
+    born_in_chaos_v1:orange_stained_glass_panel
+    born_in_chaos_v1:orbofthe_summoner
+    born_in_chaos_v1:permafrost_shard
+    born_in_chaos_v1:phantom_bomb
+    born_in_chaos_v1:phantom_creeper_copy_spawn_egg
+    born_in_chaos_v1:phantom_creeper_spawn_egg
+    born_in_chaos_v1:phantom_powder
+    born_in_chaos_v1:pieceofdarkmetal
+    born_in_chaos_v1:pile_of_skulls
+    born_in_chaos_v1:pileof_dark_metal
+    born_in_chaos_v1:potion_of_rampage
+    born_in_chaos_v1:puddleof_stimulation
+    born_in_chaos_v1:puddleofintoxication
+    born_in_chaos_v1:pumpkin_bomb_spawn_egg
+    born_in_chaos_v1:pumpkin_bruiser_spawn_egg
+    born_in_chaos_v1:pumpkin_bullet
+    born_in_chaos_v1:pumpkin_dunce_spawn_egg
+    born_in_chaos_v1:pumpkin_spirit_icon
+    born_in_chaos_v1:pumpkin_spirit_spawn_egg
+    born_in_chaos_v1:pumpkinhandgun
+    born_in_chaos_v1:pumpkinhead_icon
+    born_in_chaos_v1:pumpkinhead_spawn_egg
+    born_in_chaos_v1:pumpkinstaffa
+    born_in_chaos_v1:purple_stained_glass
+    born_in_chaos_v1:purple_stained_glass_panel
+    born_in_chaos_v1:restless_spirit_spawn_egg
+    born_in_chaos_v1:riding_felsteed_spawn_egg
+    born_in_chaos_v1:riding_lords_felsteed_spawn_egg
+    born_in_chaos_v1:river_mint
+    born_in_chaos_v1:rotten_fish
+    born_in_chaos_v1:rotten_infernal_pumpkin
+    born_in_chaos_v1:rotten_soil
+    born_in_chaos_v1:scarlet_persecutor_spawn_egg
+    born_in_chaos_v1:scarlet_stained_glass
+    born_in_chaos_v1:scarlet_stained_glass_panel
+    born_in_chaos_v1:scorched_log
+    born_in_chaos_v1:scorched_planks
+    born_in_chaos_v1:scorched_planks_button
+    born_in_chaos_v1:scorched_planks_door
+    born_in_chaos_v1:scorched_planks_fence
+    born_in_chaos_v1:scorched_planks_fence_gate
+    born_in_chaos_v1:scorched_planks_pressure_plates
+    born_in_chaos_v1:scorched_planks_slab
+    born_in_chaos_v1:scorched_planks_stairs
+    born_in_chaos_v1:scorched_planks_trapdoor
+    born_in_chaos_v1:scorched_wood
+    born_in_chaos_v1:sea_terror_eye
+    born_in_chaos_v1:sea_terror_stomach
+    born_in_chaos_v1:seared_spirit_not_despawn_spawn_egg
+    born_in_chaos_v1:seared_spirit_spawn_egg
+    born_in_chaos_v1:seedof_chaos
+    born_in_chaos_v1:senor_pumpkin_spawn_egg
+    born_in_chaos_v1:serpumpkinhead_m
+    born_in_chaos_v1:shakeand_mixicon
+    born_in_chaos_v1:sharpened_dark_metal_sword
+    born_in_chaos_v1:shattered_skull
+    born_in_chaos_v1:shell_mace
+    born_in_chaos_v1:siamese_skeletons_spawn_egg
+    born_in_chaos_v1:siamese_skeletonsleft_spawn_egg
+    born_in_chaos_v1:siamese_skeletonsright_spawn_egg
+    born_in_chaos_v1:sir_pumpkinhead_spawn_egg
+    born_in_chaos_v1:sir_pumpkinhead_without_horse_spawn_egg
+    born_in_chaos_v1:sir_the_headless_spawn_egg
+    born_in_chaos_v1:skeleton_demoman_spawn_egg
+    born_in_chaos_v1:skeleton_thrasher_not_despawn_spawn_egg
+    born_in_chaos_v1:skeleton_thrasher_spawn_egg
+    born_in_chaos_v1:skullbreaker_hammer
+    born_in_chaos_v1:smoked_fish
+    born_in_chaos_v1:smoked_flesh
+    born_in_chaos_v1:smoked_monster_flesh
+    born_in_chaos_v1:smoldering_infernal_ember
+    born_in_chaos_v1:smoldering_scorched_log
+    born_in_chaos_v1:smoldering_scorched_wood
+    born_in_chaos_v1:soul_cutlass
+    born_in_chaos_v1:soulbane
+    born_in_chaos_v1:spawn_structure_mound_hounds
+    born_in_chaos_v1:spawn_structures_clown_cart
+    born_in_chaos_v1:spawn_structures_dark_tower
+    born_in_chaos_v1:spawn_structures_farm
+    born_in_chaos_v1:spawn_structures_firewell
+    born_in_chaos_v1:spawn_structures_lookout_tower
+    born_in_chaos_v1:spider_bite_sword
+    born_in_chaos_v1:spider_mandible
+    born_in_chaos_v1:spiny_shell
+    born_in_chaos_v1:spiny_shell_armor_chestplate
+    born_in_chaos_v1:spiny_shell_armor_helmet
+    born_in_chaos_v1:spiny_shell_trap
+    born_in_chaos_v1:spirit_guide_assistant_spawn_egg
+    born_in_chaos_v1:spirit_guide_spawn_egg
+    born_in_chaos_v1:spirit_guideicon
+    born_in_chaos_v1:spiritof_chaos_spawn_egg
+    born_in_chaos_v1:spiritual_dust
+    born_in_chaos_v1:spiritual_gingerbread
+    born_in_chaos_v1:spiritual_guide_sombrero_helmet
+    born_in_chaos_v1:spiritual_sword
+    born_in_chaos_v1:spooky_snowman_head
+    born_in_chaos_v1:spruce_cowboy_in_the_moonlighticon
+    born_in_chaos_v1:squireofthedarklordicon
+    born_in_chaos_v1:staff_of_magic_arrows
+    born_in_chaos_v1:staffof_blindness
+    born_in_chaos_v1:stained_black_argillite_brick
+    born_in_chaos_v1:stained_black_argillite_brick_n
+    born_in_chaos_v1:stimulating_bomb
+    born_in_chaos_v1:stimulating_decoction
+    born_in_chaos_v1:stop_hammer
+    born_in_chaos_v1:stormcallers_horn
+    born_in_chaos_v1:stripped_scorched_log
+    born_in_chaos_v1:stripped_scorched_wood
+    born_in_chaos_v1:supreme_bonescaller_not_despawn_spawn_egg
+    born_in_chaos_v1:supreme_bonescaller_spawn_egg
+    born_in_chaos_v1:supreme_bonescaller_stage_2_spawn_egg
+    born_in_chaos_v1:supreme_measure
+    born_in_chaos_v1:swarmer_spawn_egg
+    born_in_chaos_v1:sweet_axe
+    born_in_chaos_v1:sweet_sword
+    born_in_chaos_v1:thornshell_crab_spawn_egg
+    born_in_chaos_v1:tombstone_2003wise
+    born_in_chaos_v1:tombstone_dark_titan_066
+    born_in_chaos_v1:tombstone_derivas
+    born_in_chaos_v1:tombstone_fubuki_banzai
+    born_in_chaos_v1:tombstone_orion
+    born_in_chaos_v1:tombstone_petasi
+    born_in_chaos_v1:transformative_flower
+    born_in_chaos_v1:transmuting_elixir
+    born_in_chaos_v1:trident_hayfork
+    born_in_chaos_v1:webbed_cobblestone
+    born_in_chaos_v1:wood_splitter_axe
+    born_in_chaos_v1:zombie_bruiser_spawn_egg
+    born_in_chaos_v1:zombie_clown_not_despawn_spawn_egg
+    born_in_chaos_v1:zombie_clown_spawn_egg
+    born_in_chaos_v1:zombie_fisherman_spawn_egg
+    born_in_chaos_v1:zombie_lumberjack_spawn_egg
+
+Missing minecraft:potion:
+    born_in_chaos_v1:intoxication_potion
+    born_in_chaos_v1:potion_of_living_cocoon
+    born_in_chaos_v1:potion_of_magical_depletion
+    born_in_chaos_v1:stimulating_potion
+
+Missing minecraft:block:
+    born_in_chaos_v1:argillite_lamp
+    born_in_chaos_v1:black_argillite
+    born_in_chaos_v1:black_argillite_brick
+    born_in_chaos_v1:black_argillite_brick_n
+    born_in_chaos_v1:black_argillite_brick_slab
+    born_in_chaos_v1:black_argillite_brick_slab_n
+    born_in_chaos_v1:black_argillite_brick_stairs
+    born_in_chaos_v1:black_argillite_brick_stairs_n
+    born_in_chaos_v1:black_argillite_brick_wall
+    born_in_chaos_v1:black_argillite_brick_wall_n
+    born_in_chaos_v1:black_argillite_button
+    born_in_chaos_v1:black_argillite_column
+    born_in_chaos_v1:black_argillite_column_n
+    born_in_chaos_v1:black_argillite_column_slab
+    born_in_chaos_v1:black_argillite_column_slab_n
+    born_in_chaos_v1:black_argillite_n
+    born_in_chaos_v1:black_argillite_slab
+    born_in_chaos_v1:black_argillite_slab_n
+    born_in_chaos_v1:black_argillite_stairs
+    born_in_chaos_v1:black_argillite_stairs_n
+    born_in_chaos_v1:black_argillite_wall
+    born_in_chaos_v1:black_argillite_wall_n
+    born_in_chaos_v1:black_argillitepressureplate
+    born_in_chaos_v1:bundle_of_bones
+    born_in_chaos_v1:c_black_argillite_brick_n
+    born_in_chaos_v1:carved_black_argillite
+    born_in_chaos_v1:carved_black_argillite_n
+    born_in_chaos_v1:chipped_black_argillite_brick
+    born_in_chaos_v1:closed_hound_trap
+    born_in_chaos_v1:cobweb_cover
+    born_in_chaos_v1:creepy_nutcracker
+    born_in_chaos_v1:cultivated_pumpkin
+    born_in_chaos_v1:cursed_scarlet_ornate_glass_pane
+    born_in_chaos_v1:dark_grid
+    born_in_chaos_v1:dark_ice
+    born_in_chaos_v1:dark_metal_block
+    born_in_chaos_v1:dark_metal_deposit
+    born_in_chaos_v1:dark_stained_glass
+    born_in_chaos_v1:dark_stained_glass_panel
+    born_in_chaos_v1:evil_carved_pumpkin
+    born_in_chaos_v1:fel_soil
+    born_in_chaos_v1:fel_soil_destructible
+    born_in_chaos_v1:fired_black_argillite
+    born_in_chaos_v1:fired_black_argillite_n
+    born_in_chaos_v1:flaming_evil_pumpkin
+    born_in_chaos_v1:fragile_scorched_boards
+    born_in_chaos_v1:gnawed_bones
+    born_in_chaos_v1:green_stained_glass
+    born_in_chaos_v1:green_stained_glass_panel
+    born_in_chaos_v1:hound_trap
+    born_in_chaos_v1:infected_deepslate_diamond_ore
+    born_in_chaos_v1:infected_diamond_ore
+    born_in_chaos_v1:infernal_evil_pumpkin
+    born_in_chaos_v1:infernal_evil_pumpkin_s
+    born_in_chaos_v1:lifestealer_skull
+    born_in_chaos_v1:marigolds
+    born_in_chaos_v1:mesh_door
+    born_in_chaos_v1:mossy_black_argillite_brick
+    born_in_chaos_v1:mossy_black_argillite_brick_n
+    born_in_chaos_v1:nightmare_stalker_skull
+    born_in_chaos_v1:orange_stained_glass
+    born_in_chaos_v1:orange_stained_glass_panel
+    born_in_chaos_v1:pile_of_skulls
+    born_in_chaos_v1:puddleof_stimulation
+    born_in_chaos_v1:puddleofintoxication
+    born_in_chaos_v1:purple_stained_glass
+    born_in_chaos_v1:purple_stained_glass_panel
+    born_in_chaos_v1:river_mint
+    born_in_chaos_v1:rotten_infernal_pumpkin
+    born_in_chaos_v1:rotten_soil
+    born_in_chaos_v1:scarlet_stained_glass
+    born_in_chaos_v1:scarlet_stained_glass_panel
+    born_in_chaos_v1:scorched_log
+    born_in_chaos_v1:scorched_planks
+    born_in_chaos_v1:scorched_planks_button
+    born_in_chaos_v1:scorched_planks_door
+    born_in_chaos_v1:scorched_planks_fence
+    born_in_chaos_v1:scorched_planks_fence_gate
+    born_in_chaos_v1:scorched_planks_pressure_plates
+    born_in_chaos_v1:scorched_planks_slab
+    born_in_chaos_v1:scorched_planks_stairs
+    born_in_chaos_v1:scorched_planks_trapdoor
+    born_in_chaos_v1:scorched_wood
+    born_in_chaos_v1:smoldering_scorched_log
+    born_in_chaos_v1:smoldering_scorched_wood
+    born_in_chaos_v1:spiny_shell_trap
+    born_in_chaos_v1:spooky_snowman_head
+    born_in_chaos_v1:stained_black_argillite_brick
+    born_in_chaos_v1:stained_black_argillite_brick_n
+    born_in_chaos_v1:stripped_scorched_log
+    born_in_chaos_v1:stripped_scorched_wood
+    born_in_chaos_v1:tombstone_2003wise
+    born_in_chaos_v1:tombstone_dark_titan_066
+    born_in_chaos_v1:tombstone_derivas
+    born_in_chaos_v1:tombstone_fubuki_banzai
+    born_in_chaos_v1:tombstone_orion
+    born_in_chaos_v1:tombstone_petasi
+    born_in_chaos_v1:webbed_cobblestone
+
+Missing minecraft:mob_effect:
+    born_in_chaos_v1:bad_feeling
+    born_in_chaos_v1:barbedattack
+    born_in_chaos_v1:block_break
+    born_in_chaos_v1:bone_barrier
+    born_in_chaos_v1:bone_chilling
+    born_in_chaos_v1:bone_fracture
+    born_in_chaos_v1:cursed_mark
+    born_in_chaos_v1:curseofthe_boat
+    born_in_chaos_v1:dark_splash
+    born_in_chaos_v1:dark_ward
+    born_in_chaos_v1:detonation
+    born_in_chaos_v1:dogtruce
+    born_in_chaos_v1:fish_breath
+    born_in_chaos_v1:furious_rampage
+    born_in_chaos_v1:gaze_of_terror
+    born_in_chaos_v1:ice_barrier
+    born_in_chaos_v1:infernal_flame
+    born_in_chaos_v1:infestationof_flies
+    born_in_chaos_v1:insect_protection
+    born_in_chaos_v1:intoxication
+    born_in_chaos_v1:jawattack
+    born_in_chaos_v1:lifesteal
+    born_in_chaos_v1:light_rampage
+    born_in_chaos_v1:living_bomb
+    born_in_chaos_v1:living_cocoon
+    born_in_chaos_v1:living_cocoon_player_side
+    born_in_chaos_v1:lost_items
+    born_in_chaos_v1:magic_depletion
+    born_in_chaos_v1:medium_rampage
+    born_in_chaos_v1:minion_summon
+    born_in_chaos_v1:myiasis
+    born_in_chaos_v1:obsession
+    born_in_chaos_v1:rampant_rampage
+    born_in_chaos_v1:rotten_smell
+    born_in_chaos_v1:sacrifice
+    born_in_chaos_v1:snow_storm
+    born_in_chaos_v1:soul_stratification
+    born_in_chaos_v1:stimulatingsurge
+    born_in_chaos_v1:stimulation
+    born_in_chaos_v1:stranglehold
+    born_in_chaos_v1:strong_rampage
+    born_in_chaos_v1:stun
+    born_in_chaos_v1:stunning_strike
+    born_in_chaos_v1:sweet_madness
+    born_in_chaos_v1:terrifying_presence
+    born_in_chaos_v1:undead_summonun
+    born_in_chaos_v1:unity_with_darkness
+    born_in_chaos_v1:vampiric_touch
+    born_in_chaos_v1:wither_resistance
+
+Missing minecraft:entity_type:
+    born_in_chaos_v1:baby_skeleton
+    born_in_chaos_v1:baby_skeleton_minion
+    born_in_chaos_v1:baby_spider
+    born_in_chaos_v1:baby_spider_controlled
+    born_in_chaos_v1:barrel_zombie
+    born_in_chaos_v1:bloody_gadfly
+    born_in_chaos_v1:bone_imp
+    born_in_chaos_v1:bone_imp_minion
+    born_in_chaos_v1:bonescaller
+    born_in_chaos_v1:bonescaller_not_despawn
+    born_in_chaos_v1:controlled_baby_skeleton
+    born_in_chaos_v1:controlled_spiritual_assistant
+    born_in_chaos_v1:corpse_fish
+    born_in_chaos_v1:corpse_fly
+    born_in_chaos_v1:dark_vortex
+    born_in_chaos_v1:decaying_zombie
+    born_in_chaos_v1:decaying_zombie_not_despawn
+    born_in_chaos_v1:decrepit_skeleton
+    born_in_chaos_v1:diamond_termite
+    born_in_chaos_v1:dire_hound_leader
+    born_in_chaos_v1:door_knight
+    born_in_chaos_v1:door_knight_not_despawn
+    born_in_chaos_v1:dread_hound
+    born_in_chaos_v1:dread_hound_not_despawn
+    born_in_chaos_v1:fallen_chaos_knight
+    born_in_chaos_v1:felsteed
+    born_in_chaos_v1:firelight
+    born_in_chaos_v1:firelight_not_despawn
+    born_in_chaos_v1:glutton_fish
+    born_in_chaos_v1:infernal_spirit
+    born_in_chaos_v1:intoxicatind_bomb_projectile
+    born_in_chaos_v1:krampus
+    born_in_chaos_v1:krampus_henchman
+    born_in_chaos_v1:lifestealer
+    born_in_chaos_v1:lifestealer_true_form
+    born_in_chaos_v1:lord_pumpkinhead
+    born_in_chaos_v1:lord_pumpkinhead_head
+    born_in_chaos_v1:lord_pumpkinhead_withouta_horse
+    born_in_chaos_v1:lord_the_headless
+    born_in_chaos_v1:lords_felsteed
+    born_in_chaos_v1:maggot
+    born_in_chaos_v1:missionary_charge
+    born_in_chaos_v1:missioner
+    born_in_chaos_v1:mother_spider
+    born_in_chaos_v1:mr_pumpkin
+    born_in_chaos_v1:mr_pumpkin_controlled
+    born_in_chaos_v1:mrs_pumpkin
+    born_in_chaos_v1:nightmare_stalker
+    born_in_chaos_v1:phantom_bomb_entity
+    born_in_chaos_v1:phantom_bomb_projectile
+    born_in_chaos_v1:phantom_creeper
+    born_in_chaos_v1:phantom_creeper_copy
+    born_in_chaos_v1:pumpkin_bomb
+    born_in_chaos_v1:pumpkin_bruiser
+    born_in_chaos_v1:pumpkin_dunce
+    born_in_chaos_v1:pumpkin_pistol_2_projectile
+    born_in_chaos_v1:pumpkin_pistol_projectile
+    born_in_chaos_v1:pumpkin_spirit
+    born_in_chaos_v1:pumpkin_staff_2_projectile
+    born_in_chaos_v1:pumpkin_staff_projectile
+    born_in_chaos_v1:pumpkinhead
+    born_in_chaos_v1:restless_spirit
+    born_in_chaos_v1:riding_felsteed
+    born_in_chaos_v1:riding_lords_felsteed
+    born_in_chaos_v1:scarlet_persecutor
+    born_in_chaos_v1:seared_spirit
+    born_in_chaos_v1:seared_spirit_not_despawn
+    born_in_chaos_v1:senor_pumpkin
+    born_in_chaos_v1:siamese_skeletons
+    born_in_chaos_v1:siamese_skeletonsleft
+    born_in_chaos_v1:siamese_skeletonsright
+    born_in_chaos_v1:sir_pumpkinhead
+    born_in_chaos_v1:sir_pumpkinhead_without_horse
+    born_in_chaos_v1:sir_the_headless
+    born_in_chaos_v1:skeleton_demoman
+    born_in_chaos_v1:skeleton_thrasher
+    born_in_chaos_v1:skeleton_thrasher_not_despawn
+    born_in_chaos_v1:spirit_guide
+    born_in_chaos_v1:spirit_guide_assistant
+    born_in_chaos_v1:spiritof_chaos
+    born_in_chaos_v1:staffof_blindness_projectile
+    born_in_chaos_v1:staffof_magic_arrows_2_projectile
+    born_in_chaos_v1:staffof_magic_arrows_projectile
+    born_in_chaos_v1:stimulating_bombprojectile
+    born_in_chaos_v1:supreme_bonescaller
+    born_in_chaos_v1:supreme_bonescaller_not_despawn
+    born_in_chaos_v1:supreme_bonescaller_stage_2
+    born_in_chaos_v1:swarmer
+    born_in_chaos_v1:thornshell_crab
+    born_in_chaos_v1:zombie_bruiser
+    born_in_chaos_v1:zombie_clown
+    born_in_chaos_v1:zombie_clown_not_despawn
+    born_in_chaos_v1:zombie_fisherman
+    born_in_chaos_v1:zombie_lumberjack
+
+
+[13Mar2025 17:03:28.214] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[13Mar2025 17:03:29.160] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/wither/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23203!/assets/.mcassetsroot' uses unexpected schema
+[13Mar2025 17:03:29.161] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/wither/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23203!/data/.mcassetsroot' uses unexpected schema
+[13Mar2025 17:03:29.222] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:born_in_chaos_v1
+[13Mar2025 17:03:31.539] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
+[13Mar2025 17:03:32.178] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
+[13Mar2025 17:03:32.306] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[13Mar2025 17:03:32.318] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[13Mar2025 17:03:32.388] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[13Mar2025 17:03:32.388] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_blasting_electrum_weapons as it's serializer returned null
+[13Mar2025 17:03:32.420] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[13Mar2025 17:03:32.421] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_smelting_platinum_weapons as it's serializer returned null
+[13Mar2025 17:03:32.435] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[13Mar2025 17:03:32.436] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_blasting_lead_weapons as it's serializer returned null
+[13Mar2025 17:03:32.452] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[13Mar2025 17:03:32.452] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_smelting_bronze_weapons as it's serializer returned null
+[13Mar2025 17:03:32.454] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/copper" Skipping...
+[13Mar2025 17:03:32.454] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:copper_nugget_from_smelting_copper_weapons as it's serializer returned null
+[13Mar2025 17:03:32.455] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[13Mar2025 17:03:32.455] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_blasting_aluminum_weapons as it's serializer returned null
+[13Mar2025 17:03:32.456] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[13Mar2025 17:03:32.456] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_smelting_tin_weapons as it's serializer returned null
+[13Mar2025 17:03:32.485] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[13Mar2025 17:03:32.485] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_blasting_bronze_weapons as it's serializer returned null
+[13Mar2025 17:03:32.493] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[13Mar2025 17:03:32.493] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_blasting_steel_weapons as it's serializer returned null
+[13Mar2025 17:03:32.500] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[13Mar2025 17:03:32.500] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_smelting_invar_weapons as it's serializer returned null
+[13Mar2025 17:03:32.505] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[13Mar2025 17:03:32.505] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_smelting_constantan_weapons as it's serializer returned null
+[13Mar2025 17:03:32.527] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[13Mar2025 17:03:32.527] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_smelting_nickel_weapons as it's serializer returned null
+[13Mar2025 17:03:32.528] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[13Mar2025 17:03:32.528] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_smelting_electrum_weapons as it's serializer returned null
+[13Mar2025 17:03:32.545] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[13Mar2025 17:03:32.545] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_blasting_nickel_weapons as it's serializer returned null
+[13Mar2025 17:03:32.549] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[13Mar2025 17:03:32.549] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_smelting_lead_weapons as it's serializer returned null
+[13Mar2025 17:03:32.556] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[13Mar2025 17:03:32.556] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_blasting_invar_weapons as it's serializer returned null
+[13Mar2025 17:03:32.573] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[13Mar2025 17:03:32.573] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_smelting_steel_weapons as it's serializer returned null
+[13Mar2025 17:03:32.581] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[13Mar2025 17:03:32.581] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_blasting_tin_weapons as it's serializer returned null
+[13Mar2025 17:03:32.587] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
+[13Mar2025 17:03:32.587] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_smelting_silver_weapons as it's serializer returned null
+[13Mar2025 17:03:32.611] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[13Mar2025 17:03:32.611] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_smelting_aluminum_weapons as it's serializer returned null
+[13Mar2025 17:03:32.612] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
+[13Mar2025 17:03:32.612] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_blasting_silver_weapons as it's serializer returned null
+[13Mar2025 17:03:32.618] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/copper" Skipping...
+[13Mar2025 17:03:32.618] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:copper_nugget_from_blasting_copper_weapons as it's serializer returned null
+[13Mar2025 17:03:32.621] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[13Mar2025 17:03:32.621] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_blasting_platinum_weapons as it's serializer returned null
+[13Mar2025 17:03:32.623] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[13Mar2025 17:03:32.623] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_blasting_constantan_weapons as it's serializer returned null
+[13Mar2025 17:03:32.634] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[13Mar2025 17:03:32.768] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2385 advancements
+[13Mar2025 17:03:32.772] [main/INFO] [com.lootintegrations.LootintegrationsMod/]: Parsing loot modifiers for:lootintegrations:dungeonloot_no_overflow with loottable: minecraft:chests/simple_dungeon
+[13Mar2025 17:03:32.795] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23208!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$7.decode(RecordCodecBuilder.java:406) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23208!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23208!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[13Mar2025 17:03:32.803] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id miners_delight:scavenging_tentacles - error: Unknown type 'alternative'
+[13Mar2025 17:03:32.804] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Unable to decode loot conditions
+com.google.gson.JsonSyntaxException: Unknown type 'alternative'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.loot.IGlobalLootModifier.lambda$static$1(IGlobalLootModifier.java:39) ~[forge-1.20.1-47.3.7-universal.jar%23208!/:?]
+	at com.mojang.serialization.Decoder$1.lambda$decode$1(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$5.decode(RecordCodecBuilder.java:323) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$3(KeyDispatchCodec.java:67) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.lambda$decode$4(KeyDispatchCodec.java:58) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.codecs.KeyDispatchCodec.decode(KeyDispatchCodec.java:56) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:79) ~[forge-1.20.1-47.3.7-universal.jar%23208!/:?]
+	at net.minecraftforge.common.loot.LootModifierManager.m_5787_(LootModifierManager.java:38) ~[forge-1.20.1-47.3.7-universal.jar%23208!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23203!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[13Mar2025 17:03:32.811] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id miners_delight:scavenging_silverfish - error: Unknown type 'alternative'
+[13Mar2025 17:03:32.822] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[13Mar2025 17:03:32.828] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
+[13Mar2025 17:03:32.830] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[13Mar2025 17:03:33.454] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 6.300913ms
+[13Mar2025 17:03:33.651] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[13Mar2025 17:03:33.652] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13Mar2025 17:03:33.652] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13Mar2025 17:03:33.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Mar2025 17:03:33.740] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13Mar2025 17:03:33.765] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[13Mar2025 17:03:33.852] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13Mar2025 17:03:33.853] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13Mar2025 17:03:33.853] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13Mar2025 17:03:33.853] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13Mar2025 17:03:33.936] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13Mar2025 17:03:37.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Mar2025 17:03:40.368] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, -3, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.369] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, -2, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.370] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, -1, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.370] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 0, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.371] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 1, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.371] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 2, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.372] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 3, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.372] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 4, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.372] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 5, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.373] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 6, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.373] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 7, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.374] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 8, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.374] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 9, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.375] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 10, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.375] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 11, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.375] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 12, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.376] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 13, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.376] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 14, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.376] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 15, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.376] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 16, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.377] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 17, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.377] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 18, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.378] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 19, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.379] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, -3, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.380] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, -2, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.380] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, -1, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.380] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 0, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.381] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 1, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.381] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 2, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.382] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 3, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.382] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 4, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.382] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 5, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.383] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 6, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.383] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 7, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.383] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 8, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.384] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 9, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.384] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 10, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.384] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 11, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.384] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 12, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.385] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 13, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.385] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 14, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.385] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 15, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.385] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 16, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.386] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 17, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.386] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 18, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.386] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 19, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.390] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, -3, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.391] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, -2, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.391] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, -1, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.392] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 0, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.392] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 1, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.392] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 2, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.393] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 3, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.393] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 4, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.393] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 5, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.394] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 6, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.394] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 7, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.394] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 8, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.394] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 9, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.395] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 10, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.395] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 11, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.395] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 12, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.396] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 13, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.396] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 14, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.396] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 15, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.396] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 16, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.397] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 17, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.397] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 18, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.397] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 19, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.402] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, -3, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.402] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, -2, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.403] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, -1, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:03:40.403] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 0, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.047] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 1, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.048] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 2, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.048] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 3, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.049] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 4, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.052] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 5, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.053] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 6, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.055] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 7, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.055] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 8, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.056] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 9, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.056] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 10, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.057] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 11, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.057] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 12, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.058] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 13, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.058] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 14, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.059] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 15, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.059] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 16, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.060] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 17, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.061] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 18, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.061] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 19, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.286] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, -3, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.286] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, -2, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.287] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, -1, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.287] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 0, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.288] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 1, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.288] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 2, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.289] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 3, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.289] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 4, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.290] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 5, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.290] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 6, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.291] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 7, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.291] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 8, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.294] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 9, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.294] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 10, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.295] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 11, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.295] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 12, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.295] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 13, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.296] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 14, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.296] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 15, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.296] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 16, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.296] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 17, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.297] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 18, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.299] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [11, 19, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.304] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, -3, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.304] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, -2, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.304] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, -1, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.305] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 0, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.306] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 1, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.308] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 2, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.309] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 3, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.309] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 4, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.309] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 5, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.310] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 6, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.310] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 7, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.313] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 8, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.313] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 9, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.314] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 10, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.314] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 11, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.314] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 12, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.314] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 13, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.315] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 14, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.315] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 15, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.315] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 16, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.316] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 17, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.316] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 18, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.316] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [12, 19, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.319] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, -3, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.319] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, -2, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.319] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, -1, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.320] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 0, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.320] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 1, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.320] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 2, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.321] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 3, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.321] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 4, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.321] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 5, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.322] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 6, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.322] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 7, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.323] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 8, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.323] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 9, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.323] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 10, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.324] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 11, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.324] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 12, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.325] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 13, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.325] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 14, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.325] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 15, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.325] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 16, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.326] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 17, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.326] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 18, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.326] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [13, 19, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.328] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, -3, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.328] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, -2, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.329] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, -1, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.329] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 0, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.331] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 1, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.331] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 2, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.332] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 3, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.332] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 4, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.332] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 5, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.332] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 6, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.333] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 7, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.333] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 8, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.333] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 9, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.334] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 10, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.334] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 11, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.334] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 12, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.334] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 13, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.335] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 14, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.335] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 15, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.335] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 16, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.338] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 17, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.338] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 18, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.339] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [14, 19, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.339] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, -3, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.340] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, -2, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.340] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, -1, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.340] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 0, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.341] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 1, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.341] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 2, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.343] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 3, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.343] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 4, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.343] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 5, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.344] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 6, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.344] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 7, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.344] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 8, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.345] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 9, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.348] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 10, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.348] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 11, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.349] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 12, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.349] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 13, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.349] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 14, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.349] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 15, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.350] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 16, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.350] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 17, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.350] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 18, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.352] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 19, -9]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.362] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, -3, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.362] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, -2, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.363] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, -1, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.364] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 0, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.364] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 1, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.365] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 2, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.365] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 3, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.365] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 4, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.366] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 5, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.366] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 6, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.366] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 7, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.367] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 8, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.367] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 9, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.367] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 10, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.368] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 11, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.368] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 12, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.368] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 13, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.369] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 14, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.369] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 15, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.369] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 16, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.370] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 17, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.370] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 18, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
+[13Mar2025 17:14:33.370] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Recoverable errors when loading section [15, 19, -8]: (Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: biomesoplenty:rocky_shrubland -> using default)
