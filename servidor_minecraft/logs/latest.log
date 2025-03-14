@@ -379,3 +379,7 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [14Mar2025 14:31:17.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LuxSilver> dndjdjjdjdjdddddd
 [14Mar2025 14:33:20.394] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LuxSilver lost connection: Disconnected
 [14Mar2025 14:33:20.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver left the game
+[14Mar2025 14:43:00.745] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LuxSilver[/127.69.220.99:58191] logged in with entity id 2347 at (337.05371486625893, 144.0, 11.949999988079071)
+[14Mar2025 14:43:00.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver joined the game
+[14Mar2025 14:43:00.798] [Server thread/INFO] [Jade/]: Syncing config to LuxSilver (627b3782-d24f-356a-b10f-fe70da0cb127)
+[14Mar2025 14:46:37.952] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Armorer'/2386, l='ServerLevel[world]', x=348.30, y=135.00, z=62.57] died, message: 'Armorer was slain by Zombie'
