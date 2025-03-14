@@ -4378,3 +4378,38 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [14Mar2025 03:35:04.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement [Best Friends Forever]
 [14Mar2025 03:35:42.268] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [14Mar2025 03:35:42.293] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[14Mar2025 03:39:07.708] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of LuxSilver) moved wrongly! 0.250922197589702
+[14Mar2025 03:39:29.098] [Worker-Main-2/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:mine_with_campsite/side_pool which is being called from mvs:other_decoration/mine_with_campsite
+[14Mar2025 03:40:42.254] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[14Mar2025 03:40:42.265] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[14Mar2025 03:41:12.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement ['X' Marks the Spot]
+[14Mar2025 03:41:12.300] [Server thread/DEBUG] [mixin/]: Mixing PiglinAiMixin from relics.mixins.json into net.minecraft.world.entity.monster.piglin.PiglinAi
+[14Mar2025 03:41:12.301] [Server thread/DEBUG] [mixin/]: relics.mixins.json:PiglinAiMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[14Mar2025 03:41:12.303] [Server thread/DEBUG] [mixin/]: Mixing MixinPiglinAi from curios.mixins.json into net.minecraft.world.entity.monster.piglin.PiglinAi
+[14Mar2025 03:43:10.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement [Disme A Dozen]
+[14Mar2025 03:43:13.105] [Server thread/DEBUG] [mixin/]: Mixing WearableArtifactCurioMixin from rarcompat.mixins.json into artifacts.forge.curio.WearableArtifactCurio
+[14Mar2025 03:43:13.105] [Server thread/DEBUG] [mixin/]: rarcompat.mixins.json:WearableArtifactCurioMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[14Mar2025 03:43:16.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement [Amateur Archaeologist]
+[14Mar2025 03:44:00.162] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[14Mar2025 03:44:13.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement [Sweet Dreams]
+[14Mar2025 03:45:42.272] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[14Mar2025 03:45:42.280] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[14Mar2025 03:46:04.111] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/2914, l='ServerLevel[world]', x=426.76, y=135.60, z=55.65] died, message: 'Unemployed was slain by Zombie'
+[14Mar2025 03:46:40.374] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-201}
+[14Mar2025 03:46:40.376] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-58, z=-205}
+[14Mar2025 03:46:40.380] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-292, y=-57, z=-313}
+[14Mar2025 03:46:40.381] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-294, y=-57, z=-313}
+[14Mar2025 03:46:40.381] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-296, y=-57, z=-313}
+[14Mar2025 03:46:40.425] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-193, y=-45, z=-211}
+[14Mar2025 03:46:40.426] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-210}
+[14Mar2025 03:46:40.426] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-49, z=-219}
+[14Mar2025 03:46:40.426] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-211}
+[14Mar2025 03:46:40.426] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-191, y=-45, z=-211}
+[14Mar2025 03:46:40.431] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-291, y=-57, z=-315}
+[14Mar2025 03:46:40.432] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-295, y=-57, z=-315}
+[14Mar2025 03:46:40.432] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-293, y=-57, z=-315}
+[14Mar2025 03:47:06.242] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[14Mar2025 03:47:18.933] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[14Mar2025 03:47:50.465] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LuxSilver lost connection: Disconnected
+[14Mar2025 03:47:50.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver left the game
+[14Mar2025 03:47:50.551] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
