@@ -320,3 +320,5 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [14Mar2025 18:59:45.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver joined the game
 [14Mar2025 18:59:45.797] [Server thread/INFO] [Jade/]: Syncing config to LuxSilver (627b3782-d24f-356a-b10f-fe70da0cb127)
 [14Mar2025 19:04:38.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement [Who is Cutting Onions?]
+[14Mar2025 19:13:24.161] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LuxSilver lost connection: Disconnected
+[14Mar2025 19:13:24.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver left the game
