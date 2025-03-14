@@ -370,3 +370,12 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [14Mar2025 14:23:27.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement [Going Clubbing]
 [14Mar2025 14:24:50.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement [Acquire Hardware]
 [14Mar2025 14:25:06.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement [Hunt and Gather]
+[14Mar2025 14:27:43.944] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/927, l='ServerLevel[world]', x=340.70, y=138.00, z=35.65] died, message: 'Unemployed was slain by Zombie'
+[14Mar2025 14:27:46.103] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LuxSilver lost connection: Disconnected
+[14Mar2025 14:27:46.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver left the game
+[14Mar2025 14:28:22.250] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LuxSilver[/127.69.220.99:59109] logged in with entity id 1706 at (357.637207482509, 142.0, 3.3722462756552436)
+[14Mar2025 14:28:22.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver joined the game
+[14Mar2025 14:28:22.306] [Server thread/INFO] [Jade/]: Syncing config to LuxSilver (627b3782-d24f-356a-b10f-fe70da0cb127)
+[14Mar2025 14:31:17.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <LuxSilver> dndjdjjdjdjdddddd
+[14Mar2025 14:33:20.394] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LuxSilver lost connection: Disconnected
+[14Mar2025 14:33:20.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver left the game
