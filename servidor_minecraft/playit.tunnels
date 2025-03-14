@@ -9,16 +9,16 @@
       "active": true,
       "alloc": {
         "data": {
-          "assigned_domain": "others-aerial.gl.joinmc.link",
-          "assigned_srv": "others-aerial.gl.joinmc.link",
+          "assigned_domain": "english-paypal.gl.joinmc.link",
+          "assigned_srv": "english-paypal.gl.joinmc.link",
           "assignment": {
             "type": "shared-ip"
           },
-          "id": "152e7ead-4045-4cff-99ef-f214f58bf0ff",
+          "id": "2b7c1a36-e158-46f4-a1c0-4e0150eb1e07",
           "ip_hostname": "26.ip.gl.ply.gg",
           "ip_type": "both",
-          "port_end": 57687,
-          "port_start": 57686,
+          "port_end": 59663,
+          "port_start": 59662,
           "region": "global",
           "static_ip4": "147.185.221.26",
           "static_ip6": "2602:fbaf:0:1::1a",
@@ -26,17 +26,17 @@
         },
         "status": "allocated"
       },
-      "created_at": "2025-03-13T14:51:41.368854Z",
+      "created_at": "2025-03-14T17:45:07.785626Z",
       "disabled_reason": null,
       "domain": null,
       "expire_notice": null,
       "firewall_id": null,
-      "id": "d4b722b5-6a1e-4e82-88ac-314975634856",
+      "id": "6559f21a-9523-4228-97c6-5bd66c762674",
       "name": "Minecraft Java",
       "origin": {
         "data": {
-          "agent_id": "a07c4c03-6412-4ad5-93a2-b78fb66b7297",
-          "agent_name": "from-key-194e",
+          "agent_id": "ec9d221f-0309-4943-be35-9f5ecbdf5923",
+          "agent_name": "from-key-c385",
           "local_ip": "127.0.0.1",
           "local_port": 25565
         },

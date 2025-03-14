@@ -1,1093 +1,317 @@
 {
+  "spartanweaponry:recipes/golden_rapier": {
+    "criteria": {
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_halberd": {
+    "criteria": {
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_dagger": {
+    "criteria": {
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
+    },
+    "done": true
+  },
+  "takesapillage:root": {
+    "criteria": {
+      "always": "2025-03-14 18:19:41 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_spear": {
+    "criteria": {
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_battleaxe": {
+    "criteria": {
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_throwing_knife": {
+    "criteria": {
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/golden_lance": {
+    "criteria": {
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2025-03-14 03:31:04 +0000"
-    },
-    "done": true
-  },
-  "astikorcarts:recipes/supply_cart": {
-    "criteria": {
-      "has_wheel": "2025-03-14 03:31:04 +0000"
-    },
-    "done": true
-  },
-  "lootr:root": {
-    "criteria": {
-      "always_true": "2025-03-14 03:31:04 +0000"
-    },
-    "done": true
-  },
-  "betterdeserttemples:root": {
-    "criteria": {
-      "always": "2025-03-14 03:31:04 +0000"
-    },
-    "done": true
-  },
-  "astikorcarts:recipes/plow": {
-    "criteria": {
-      "has_wheel": "2025-03-14 03:31:04 +0000"
-    },
-    "done": true
-  },
-  "astikorcarts:recipes/animal_cart": {
-    "criteria": {
-      "has_wheel": "2025-03-14 03:31:04 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:wda_root": {
-    "criteria": {
-      "WDA": "2025-03-14 03:31:04 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/root": {
-    "criteria": {
-      "seeds": "2025-03-14 03:31:04 +0000"
-    },
-    "done": true
-  },
-  "betterdungeons:root": {
-    "criteria": {
-      "always": "2025-03-14 03:31:04 +0000"
-    },
-    "done": true
-  },
-  "witherstormmod:recipes/food/golden_apple_stew": {
-    "criteria": {
-      "has_golden_apple": "2025-03-14 03:34:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/tame_an_animal": {
-    "criteria": {
-      "tamed_animal": "2025-03-14 03:35:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:forest": "2025-03-14 03:40:21 +0000"
-    },
-    "done": false
-  },
-  "lootr:1chest": {
-    "criteria": {
-      "opened_chest": "2025-03-14 03:41:12 +0000"
-    },
-    "done": true
-  },
-  "lootr:social": {
-    "criteria": {
-      "opened_chest": "2025-03-14 03:41:12 +0000"
-    },
-    "done": false
-  },
-  "lootr:10loot": {
-    "criteria": {
-      "loot_stat": "2025-03-14 03:43:10 +0000"
-    },
-    "done": true
-  },
-  "artifacts:amateur_archaeologist": {
-    "criteria": {
-      "find_artifact": "2025-03-14 03:43:16 +0000"
+      "unlock_right_away": "2025-03-14 18:19:41 +0000"
     },
     "done": true
   },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "has_lots_of_items": "2025-03-14 03:43:55 +0000"
+      "has_lots_of_items": "2025-03-14 18:33:11 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/sleep_in_bed": {
+  "spartanweaponry:recipes/golden_saber": {
     "criteria": {
-      "slept_in_bed": "2025-03-14 03:44:13 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/redstone": {
+  "spartanweaponry:recipes/golden_battle_hammer": {
     "criteria": {
-      "has_redstone_block": "2025-03-14 14:20:46 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "immersive_armors:recipes/misc/wooden": {
+  "astikorcarts:recipes/supply_cart": {
     "criteria": {
-      "has_item": "2025-03-14 14:22:15 +0000"
+      "has_wheel": "2025-03-14 18:19:41 +0000"
     },
     "done": true
   },
-  "naturescompass:natures_compass": {
+  "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
-      "has_recipe": "2025-03-14 14:22:15 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/wooden_club": {
+  "spartanweaponry:recipes/golden_greatsword": {
     "criteria": {
-      "has_wood_log": "2025-03-14 14:22:15 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/charcoal": {
+  "lootr:root": {
     "criteria": {
-      "has_log": "2025-03-14 14:22:15 +0000"
+      "always_true": "2025-03-14 18:19:41 +0000"
     },
     "done": true
   },
-  "naturescompass:natures_compass_log": {
+  "spartanweaponry:recipes/golden_quarterstaff": {
     "criteria": {
-      "has_log": "2025-03-14 14:22:15 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "naturescompass:natures_compass_sapling": {
+  "farmersdelight:recipes/combat/golden_knife": {
     "criteria": {
-      "has_recipe": "2025-03-14 14:22:15 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_planks": {
+  "spartanweaponry:recipes/golden_pike": {
     "criteria": {
-      "has_logs": "2025-03-14 14:22:15 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_wood": {
+  "betterdeserttemples:root": {
     "criteria": {
-      "has_log": "2025-03-14 14:22:15 +0000"
+      "always": "2025-03-14 18:19:41 +0000"
     },
     "done": true
   },
-  "spartanweaponry:club": {
+  "spartanweaponry:recipes/golden_javelin": {
     "criteria": {
-      "has_club": "2025-03-14 14:23:27 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/studded_club": {
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
-      "has_club": "2025-03-14 14:23:27 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/wooden_scythe": {
+  "spartanweaponry:recipes/golden_parrying_dagger": {
     "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/wooden_glaive": {
+  "spartanweaponry:recipes/golden_boomerang": {
     "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/oak_sign": {
+  "astikorcarts:recipes/plow": {
     "criteria": {
-      "has_planks": "2025-03-14 14:23:30 +0000"
+      "has_wheel": "2025-03-14 18:19:41 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_trapdoor": {
+  "spartanweaponry:recipes/golden_longsword": {
     "criteria": {
-      "has_planks": "2025-03-14 14:23:30 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/wooden_lance": {
+  "astikorcarts:recipes/animal_cart": {
     "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
+      "has_wheel": "2025-03-14 18:19:41 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/wooden_spear": {
+  "spartanweaponry:recipes/golden_scythe": {
     "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/wooden_longsword": {
+  "dungeons_arise:wda_root": {
     "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
+      "WDA": "2025-03-14 18:19:41 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/stick": {
+  "spartanweaponry:recipes/golden_glaive": {
     "criteria": {
-      "has_planks": "2025-03-14 14:23:30 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/wooden_pike": {
+  "spartanweaponry:recipes/medium_quiver_brace": {
     "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_stairs": {
+  "farmersdelight:main/root": {
     "criteria": {
-      "has_planks": "2025-03-14 14:23:30 +0000"
+      "seeds": "2025-03-14 18:19:41 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/oak_fence": {
+  "spartanweaponry:recipes/golden_katana": {
     "criteria": {
-      "has_planks": "2025-03-14 14:23:30 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/wooden_halberd": {
+  "minecraft:recipes/combat/golden_sword": {
     "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/wooden_saber": {
+  "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/wooden_javelin": {
+  "spartanweaponry:recipes/golden_warhammer": {
     "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/wooden_katana": {
+  "spartanweaponry:recipes/golden_longbow": {
     "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/wooden_quarterstaff": {
+  "spartanweaponry:recipes/golden_tomahawk": {
     "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/wooden_battleaxe": {
+  "betterdungeons:root": {
     "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
+      "always": "2025-03-14 18:19:41 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_button": {
+  "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "has_planks": "2025-03-14 14:23:30 +0000"
+      "minecraft:sunflower_plains": "2025-03-14 18:27:12 +0000",
+      "minecraft:stony_shore": "2025-03-14 18:19:42 +0000",
+      "minecraft:ocean": "2025-03-14 18:25:02 +0000",
+      "minecraft:old_growth_birch_forest": "2025-03-14 18:21:47 +0000",
+      "minecraft:plains": "2025-03-14 18:29:33 +0000"
     },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_battle_hammer": {
-    "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_slab": {
-    "criteria": {
-      "has_planks": "2025-03-14 14:23:30 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_warhammer": {
-    "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
-    },
-    "done": true
-  },
-  "astikorcarts:recipes/wheel": {
-    "criteria": {
-      "has_planks": "2025-03-14 14:23:30 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_dagger": {
-    "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_fence_gate": {
-    "criteria": {
-      "has_planks": "2025-03-14 14:23:30 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_greatsword": {
-    "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_parrying_dagger": {
-    "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_rapier": {
-    "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-03-14 14:23:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_door": {
-    "criteria": {
-      "has_planks": "2025-03-14 14:23:30 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_boomerang": {
-    "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_throwing_knife": {
-    "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_heavy_crossbow": {
-    "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_flanged_mace": {
-    "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_tomahawk": {
-    "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/barrel": {
-    "criteria": {
-      "has_planks": "2025-03-14 14:23:30 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_longbow": {
-    "criteria": {
-      "has_wood": "2025-03-14 14:23:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/red_dye_from_rose_bush": {
-    "criteria": {
-      "has_rose_bush": "2025-03-14 14:23:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/ladder": {
-    "criteria": {
-      "has_stick": "2025-03-14 14:24:09 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/combat/flint_knife": {
-    "criteria": {
-      "has_stick": "2025-03-14 14:24:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_axe": {
-    "criteria": {
-      "has_stick": "2025-03-14 14:24:09 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/combat/pole_from_leather": {
-    "criteria": {
-      "has_stick": "2025-03-14 14:24:09 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/combat/pole_from_wool": {
-    "criteria": {
-      "has_stick": "2025-03-14 14:24:09 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/combat/handle_from_leather": {
-    "criteria": {
-      "has_stick": "2025-03-14 14:24:09 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/combat/handle_from_wool": {
-    "criteria": {
-      "has_stick": "2025-03-14 14:24:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_stick": "2025-03-14 14:24:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_hoe": {
-    "criteria": {
-      "has_stick": "2025-03-14 14:24:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_pickaxe": {
-    "criteria": {
-      "has_stick": "2025-03-14 14:24:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_shovel": {
-    "criteria": {
-      "has_stick": "2025-03-14 14:24:09 +0000"
-    },
-    "done": true
-  },
-  "paraglider:recipes/misc/paraglider": {
-    "criteria": {
-      "has_stick": "2025-03-14 14:24:09 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/combat/pole_from_string": {
-    "criteria": {
-      "has_stick": "2025-03-14 14:24:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/wooden_sword": {
-    "criteria": {
-      "has_stick": "2025-03-14 14:24:09 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/combat/simple_handle": {
-    "criteria": {
-      "has_stick": "2025-03-14 14:24:09 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/cutting_board": {
-    "criteria": {
-      "has_stick": "2025-03-14 14:24:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2025-03-14 14:24:44 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_javelin": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/iron_leggings": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/iron_chestplate": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_quarterstaff": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_nugget": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_halberd": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bucket": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_flanged_mace": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/iron_helmet": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_boomerang": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/minecart": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/iron_hoe": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_katana": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_pike": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_heavy_crossbow": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "immersive_aircraft:misc/aircraftery": {
-    "criteria": {
-      "has_item": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/smelt_iron": {
-    "criteria": {
-      "iron": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/shears": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_tomahawk": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chain": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_glaive": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_warhammer": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/iron_block": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_longsword": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/cooking_pot": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_parrying_dagger": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/smithing_table": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_rapier": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_battleaxe": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_lance": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_dagger": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_throwing_knife": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/iron_sword": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/iron_pickaxe": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/shield": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/hopper": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/iron_bars": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/iron_boots": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/lantern": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/iron_shovel": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_longbow": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_greatsword": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "man_of_many_planes:misc/expanded_aircraftery": {
-    "criteria": {
-      "has_item": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/iron_trapdoor": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_battle_hammer": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/iron_axe": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/crossbow": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_scythe": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/iron_spear": {
-    "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
+    "done": false
   },
-  "spartanweaponry:recipes/iron_saber": {
+  "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/combat/iron_knife": {
+  "spartanweaponry:recipes/golden_flanged_mace": {
     "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
   "witherstormmod:recipes/tools/amulet": {
     "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/iron_door": {
+  "spartanweaponry:recipes/golden_heavy_crossbow": {
     "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+  "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
-      "has_iron_ingot": "2025-03-14 14:24:50 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/craft_knife": {
-    "criteria": {
-      "flint_knife": "2025-03-14 14:25:06 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/cooked_bacon_from_campfire_cooking": {
-    "criteria": {
-      "cooked_bacon": "2025-03-14 14:25:07 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/cooked_bacon_from_smoking": {
-    "criteria": {
-      "cooked_bacon": "2025-03-14 14:25:07 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/cooked_bacon": {
-    "criteria": {
-      "cooked_bacon": "2025-03-14 14:25:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_mutton_from_smoking": {
-    "criteria": {
-      "has_mutton": "2025-03-14 14:25:09 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/grease_ball": {
-    "criteria": {
-      "has_meat": "2025-03-14 14:25:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_mutton": {
-    "criteria": {
-      "has_mutton": "2025-03-14 14:25:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
-    "criteria": {
-      "has_mutton": "2025-03-14 14:25:09 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
-    "criteria": {
-      "has_any_ingredient": "2025-03-14 14:25:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_beef_from_smoking": {
-    "criteria": {
-      "has_beef": "2025-03-14 14:25:11 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/beef_stew": {
-    "criteria": {
-      "has_any_ingredient": "2025-03-14 14:25:11 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/pasta_with_meatballs": {
-    "criteria": {
-      "has_any_ingredient": "2025-03-14 14:25:11 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_beef": {
-    "criteria": {
-      "has_beef": "2025-03-14 14:25:11 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
-    "criteria": {
-      "has_beef": "2025-03-14 14:25:11 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/beef_patty_from_campfire_cooking": {
-    "criteria": {
-      "beef_patty": "2025-03-14 14:25:19 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/beef_patty_from_smoking": {
-    "criteria": {
-      "beef_patty": "2025-03-14 14:25:19 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/beef_patty": {
-    "criteria": {
-      "beef_patty": "2025-03-14 14:25:19 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/misc/iron_nugget_from_blasting_knife": {
-    "criteria": {
-      "has_iron_knife": "2025-03-14 14:25:20 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/misc/iron_nugget_from_smelting_knife": {
-    "criteria": {
-      "has_iron_knife": "2025-03-14 14:25:20 +0000"
-    },
-    "done": true
-  },
-  "paraglider:root": {
-    "criteria": {
-      "crafting_table": "2025-03-14 14:25:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/root": {
-    "criteria": {
-      "crafting_table": "2025-03-14 14:25:32 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/cooked_mutton_chops": {
-    "criteria": {
-      "cooked_mutton_chops": "2025-03-14 14:26:35 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/cooked_mutton_chops_from_smoking": {
-    "criteria": {
-      "cooked_mutton_chops": "2025-03-14 14:26:35 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/cooked_mutton_chops_from_campfire_cooking": {
-    "criteria": {
-      "cooked_mutton_chops": "2025-03-14 14:26:35 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/use_cutting_board": {
-    "criteria": {
-      "cutting_board": "2025-03-14 14:26:35 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/hamburger": {
-    "criteria": {
-      "has_beef_patty": "2025-03-14 14:27:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2025-03-14 14:27:23 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/rabbit_stew": {
-    "criteria": {
-      "has_any_ingredient": "2025-03-14 14:48:47 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/chicken_soup": {
-    "criteria": {
-      "has_any_ingredient": "2025-03-14 14:48:47 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/vegetable_noodles": {
-    "criteria": {
-      "has_any_ingredient": "2025-03-14 14:48:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/smoker": {
-    "criteria": {
-      "has_furnace": "2025-03-14 15:10:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2025-03-14 14:46:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/bamboo_raft": {
-    "criteria": {
-      "in_water": "2025-03-14 14:46:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2025-03-14 14:46:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2025-03-14 14:46:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2025-03-14 14:46:22 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/fried_rice": {
-    "criteria": {
-      "has_any_ingredient": "2025-03-14 14:48:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2025-03-14 14:46:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/torch": {
-    "criteria": {
-      "has_stone_pickaxe": "2025-03-14 14:50:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/upgrade_tools": {
-    "criteria": {
-      "stone_pickaxe": "2025-03-14 14:50:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/carrot_on_a_stick": {
-    "criteria": {
-      "has_carrot": "2025-03-14 14:48:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2025-03-14 14:46:22 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/vegetable_soup": {
-    "criteria": {
-      "has_any_ingredient": "2025-03-14 14:48:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2025-03-14 14:46:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2025-03-14 14:46:22 +0000"
+      "has_gold_ingot": "2025-03-14 18:35:12 +0000"
     },
     "done": true
   },
