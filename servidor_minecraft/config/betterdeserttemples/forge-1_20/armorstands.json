@@ -43,15 +43,15 @@
   },
   "armoryBoots": {
     "entries": {
-      "golden_boots": 0.2,
-      "chainmail_boots": 0.3
+      "chainmail_boots": 0.3,
+      "golden_boots": 0.2
     },
     "defaultItem": "air"
   },
   "wardrobeBoots": {
     "entries": {
-      "leather_boots": 0.4,
-      "chainmail_boots": 0.2
+      "chainmail_boots": 0.2,
+      "leather_boots": 0.4
     },
     "defaultItem": "air"
   }
