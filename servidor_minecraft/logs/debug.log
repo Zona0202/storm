@@ -4003,3 +4003,82 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [15Mar2025 01:04:55.137] [Worker-Main-3/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
 [15Mar2025 01:05:43.630] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [15Mar2025 01:05:43.640] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[15Mar2025 01:10:40.087] [Server thread/DEBUG] [harvest_with_ease/]: Loaded it.crystalnest.harvest_with_ease.platform.ForgePlatformHelper@765db1e for service interface it.crystalnest.harvest_with_ease.platform.services.PlatformHelper
+[15Mar2025 01:10:40.091] [Server thread/DEBUG] [harvest_with_ease/]: Loaded it.crystalnest.harvest_with_ease.api.event.ForgeEventHelper@703a3f13 for service interface it.crystalnest.harvest_with_ease.platform.services.EventHelper
+[15Mar2025 01:10:40.092] [Server thread/DEBUG] [harvest_with_ease/]: Loaded it.crystalnest.harvest_with_ease.platform.ForgeHarvestHelper@64c4d221 for service interface it.crystalnest.harvest_with_ease.platform.services.HarvestHelper
+[15Mar2025 01:10:44.868] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[15Mar2025 01:10:44.879] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[15Mar2025 01:11:36.739] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/2238, l='ServerLevel[world]', x=-450.63, y=79.00, z=23.72] died, message: 'Unemployed suffocated in a wall'
+[15Mar2025 01:12:08.069] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=203, y=48, z=159}
+[15Mar2025 01:12:08.754] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[15Mar2025 01:13:20.055] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wheat_grain_bin
+[15Mar2025 01:15:43.576] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[15Mar2025 01:15:43.584] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[15Mar2025 01:17:21.612] [Worker-Main-1/WARN] [com.finndog.mvs.MVSCommon/]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[15Mar2025 01:18:19.193] [Server thread/DEBUG] [witherstormmod/WitherStormBowelsManager/]: Searching for available bowels arena for entity WitherStormEntity['Wither Storm'/4471, l='ServerLevel[world]', x=-602.68, y=104.23, z=-287.22]
+[15Mar2025 01:18:19.193] [Server thread/DEBUG] [witherstormmod/WitherStormBowelsManager/]: Using pre-located structure...
+[15Mar2025 01:18:19.196] [Server thread/DEBUG] [witherstormmod/WitherStormBowelsManager/]: Successfully setup this bowels instance BowelsInstance[start = (BlockPos{x=0, y=0, z=0}, net.minecraft.world.level.levelgen.structure.StructureStart@4b6ddc40), pos = BlockPos{x=0, y=0, z=0}, storm = 833db884-a10a-4f33-b9ed-414b60a21fd8, commandBlock = null, hasPreparedArena = false, completed = false]
+[15Mar2025 01:18:19.196] [Server thread/DEBUG] [witherstormmod/WitherStormBowelsManager/]: Loaded chunks in arena
+[15Mar2025 01:18:19.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LuxSilver: Summoned new Wither Storm]
+[15Mar2025 01:18:19.199] [Server thread/DEBUG] [nonamecrackers2.witherstormmod.common.capability.WitherStormModChunkLoader/]: A new chunk loading entity has entered the world: WitherStormEntity['Wither Storm'/4471, l='ServerLevel[world]', x=-602.68, y=104.23, z=-287.22]
+[15Mar2025 01:18:19.199] [Server thread/DEBUG] [nonamecrackers2.witherstormmod.common.capability.WitherStormModChunkLoader/]: Loading chunk [-38, -18] with radius 12
+[15Mar2025 01:18:23.518] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-45, z=-85}
+[15Mar2025 01:18:23.518] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-178, y=-41, z=-89}
+[15Mar2025 01:18:23.519] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-92}
+[15Mar2025 01:18:23.519] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-93}
+[15Mar2025 01:18:23.520] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-175, y=-41, z=-90}
+[15Mar2025 01:18:23.525] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-274, y=-57, z=-245}
+[15Mar2025 01:18:23.526] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-276, y=-57, z=-243}
+[15Mar2025 01:18:23.526] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-277, y=-57, z=-244}
+[15Mar2025 01:18:23.549] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-177, y=-55, z=-77}
+[15Mar2025 01:18:23.550] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-181, y=-50, z=-73}
+[15Mar2025 01:18:23.550] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-182, y=-45, z=-75}
+[15Mar2025 01:18:23.551] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-70}
+[15Mar2025 01:18:23.763] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-22, y=-57, z=618}
+[15Mar2025 01:18:23.763] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-14, y=-57, z=618}
+[15Mar2025 01:18:33.624] [Server thread/DEBUG] [nonamecrackers2.witherstormmod.common.capability.WitherStormModChunkLoader/]: Unloading chunk [-38, -18]
+[15Mar2025 01:18:33.625] [Server thread/DEBUG] [nonamecrackers2.witherstormmod.common.capability.WitherStormModChunkLoader/]: Loading chunk [-38, -17] with radius 12
+[15Mar2025 01:18:41.324] [Server thread/DEBUG] [nonamecrackers2.witherstormmod.common.capability.WitherStormModChunkLoader/]: Unloading chunk [-38, -17]
+[15Mar2025 01:18:41.324] [Server thread/DEBUG] [nonamecrackers2.witherstormmod.common.capability.WitherStormModChunkLoader/]: Loading chunk [-38, -16] with radius 12
+[15Mar2025 01:18:42.425] [Server thread/DEBUG] [nonamecrackers2.witherstormmod.common.capability.WitherStormModChunkLoader/]: Unloading chunk [-38, -16]
+[15Mar2025 01:18:42.425] [Server thread/DEBUG] [nonamecrackers2.witherstormmod.common.capability.WitherStormModChunkLoader/]: Loading chunk [-39, -16] with radius 12
+[15Mar2025 01:18:48.824] [Server thread/DEBUG] [nonamecrackers2.witherstormmod.common.capability.WitherStormModChunkLoader/]: Unloading chunk [-39, -16]
+[15Mar2025 01:18:48.824] [Server thread/DEBUG] [nonamecrackers2.witherstormmod.common.capability.WitherStormModChunkLoader/]: Loading chunk [-39, -15] with radius 12
+[15Mar2025 01:18:52.461] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[15Mar2025 01:18:53.407] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[15Mar2025 01:18:54.563] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[15Mar2025 01:18:55.114] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[15Mar2025 01:18:55.312] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[15Mar2025 01:18:55.523] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[15Mar2025 01:18:55.622] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[15Mar2025 01:18:55.811] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[15Mar2025 01:18:56.080] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[15Mar2025 01:18:56.220] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[15Mar2025 01:18:56.313] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[15Mar2025 01:18:56.567] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[15Mar2025 01:18:56.666] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[15Mar2025 01:18:56.910] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[15Mar2025 01:18:57.114] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[15Mar2025 01:18:58.974] [Server thread/DEBUG] [nonamecrackers2.witherstormmod.common.capability.WitherStormModChunkLoader/]: Unloading chunk [-39, -15]
+[15Mar2025 01:18:58.974] [Server thread/DEBUG] [nonamecrackers2.witherstormmod.common.capability.WitherStormModChunkLoader/]: Loading chunk [-40, -15] with radius 12
+[15Mar2025 01:19:00.277] [Server thread/DEBUG] [nonamecrackers2.witherstormmod.common.capability.WitherStormModChunkLoader/]: Unloading chunk [-40, -15]
+[15Mar2025 01:19:00.277] [Server thread/DEBUG] [nonamecrackers2.witherstormmod.common.capability.WitherStormModChunkLoader/]: Loading chunk [-40, -14] with radius 12
+[15Mar2025 01:19:05.452] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-74}
+[15Mar2025 01:19:05.452] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-77}
+[15Mar2025 01:19:05.453] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-50, z=-72}
+[15Mar2025 01:19:05.453] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-184, y=-45, z=-75}
+[15Mar2025 01:19:05.525] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-195, y=-54, z=-92}
+[15Mar2025 01:19:05.526] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-88}
+[15Mar2025 01:19:05.526] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-85}
+[15Mar2025 01:19:05.527] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-51, z=-89}
+[15Mar2025 01:19:05.527] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-50, z=-90}
+[15Mar2025 01:19:05.528] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-186, y=-45, z=-87}
+[15Mar2025 01:19:05.529] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-189, y=-45, z=-84}
+[15Mar2025 01:19:08.781] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-22, y=-57, z=626}
+[15Mar2025 01:19:08.781] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-14, y=-57, z=626}
+[15Mar2025 01:19:09.487] [Server thread/DEBUG] [nonamecrackers2.witherstormmod.common.capability.WitherStormModChunkLoader/]: Unloading chunk [-40, -14]
+[15Mar2025 01:19:09.487] [Server thread/DEBUG] [nonamecrackers2.witherstormmod.common.capability.WitherStormModChunkLoader/]: Loading chunk [-40, -15] with radius 12
+[15Mar2025 01:19:13.583] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[15Mar2025 01:19:32.444] [Server thread/DEBUG] [nonamecrackers2.witherstormmod.common.capability.WitherStormModChunkLoader/]: Unloading chunk [-40, -15]
+[15Mar2025 01:19:32.445] [Server thread/DEBUG] [nonamecrackers2.witherstormmod.common.capability.WitherStormModChunkLoader/]: Loading chunk [-40, -16] with radius 12
+[15Mar2025 01:19:33.838] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5264ms or 105 ticks behind
