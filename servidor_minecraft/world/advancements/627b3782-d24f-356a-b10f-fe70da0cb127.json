@@ -542,5 +542,17 @@
     },
     "done": true
   },
+  "lootr:social": {
+    "criteria": {
+      "opened_barrel": "2025-03-15 03:45:05 +0000"
+    },
+    "done": false
+  },
+  "lootr:1barrel": {
+    "criteria": {
+      "opened_barrel": "2025-03-15 03:45:05 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
