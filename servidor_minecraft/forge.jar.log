@@ -1,8 +1,8 @@
 JVM info: Microsoft - 21.0.5 - 21.0.5+11-LTS
 java.net.preferIPv4Stack=true
-Current Time: 14/03/2025 17:40:35
-Host: files.minecraftforge.net [104.21.58.163, 172.67.161.211]
-Host: maven.minecraftforge.net [172.67.161.211, 104.21.58.163]
+Current Time: 15/03/2025 14:50:54
+Host: files.minecraftforge.net [172.67.161.211, 104.21.58.163]
+Host: maven.minecraftforge.net [104.21.58.163, 172.67.161.211]
 Host: libraries.minecraft.net [13.107.246.41]
 Host: launchermeta.mojang.com [13.107.246.41]
 Host: piston-meta.mojang.com [13.107.246.41]
@@ -16,20 +16,15 @@ Found 0 additional library directories
 Considering library cpw.mods:securejarhandler:2.1.10
   File exists: Checksum validated.
 Considering library org.ow2.asm:asm:9.7
-  Downloading library from https://maven.creeperhost.net/org/ow2/asm/asm/9.7/asm-9.7.jar
-    Download completed: Checksum validated.
+  File exists: Checksum validated.
 Considering library org.ow2.asm:asm-commons:9.7
-  Downloading library from https://maven.creeperhost.net/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar
-    Download completed: Checksum validated.
+  File exists: Checksum validated.
 Considering library org.ow2.asm:asm-tree:9.7
-  Downloading library from https://maven.creeperhost.net/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar
-    Download completed: Checksum validated.
+  File exists: Checksum validated.
 Considering library org.ow2.asm:asm-util:9.7
-  Downloading library from https://maven.creeperhost.net/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar
-    Download completed: Checksum validated.
+  File exists: Checksum validated.
 Considering library org.ow2.asm:asm-analysis:9.7
-  Downloading library from https://maven.creeperhost.net/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar
-    Download completed: Checksum validated.
+  File exists: Checksum validated.
 Considering library net.minecraftforge:accesstransformers:8.0.4
   File exists: Checksum validated.
 Considering library org.antlr:antlr4-runtime:4.9.1
@@ -39,8 +34,7 @@ Considering library net.minecraftforge:eventbus:6.0.5
 Considering library net.minecraftforge:forgespi:7.0.1
   File exists: Checksum validated.
 Considering library net.minecraftforge:coremods:5.1.6
-  Downloading library from https://maven.creeperhost.net/net/minecraftforge/coremods/5.1.6/coremods-5.1.6.jar
-    Download completed: Checksum validated.
+  File exists: Checksum validated.
 Considering library cpw.mods:modlauncher:10.0.9
   File exists: Checksum validated.
 Considering library net.minecraftforge:unsafe:0.2.0
@@ -64,8 +58,7 @@ Considering library org.jline:jline-terminal:3.12.1
 Considering library org.spongepowered:mixin:0.8.5
   File exists: Checksum validated.
 Considering library org.openjdk.nashorn:nashorn-core:15.3
-  Downloading library from https://maven.creeperhost.net/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
-    Download completed: Checksum validated.
+  File exists: Checksum validated.
 Considering library net.minecraftforge:JarJarSelector:0.3.19
   File exists: Checksum validated.
 Considering library net.minecraftforge:JarJarMetadata:0.3.19
@@ -75,11 +68,9 @@ Considering library cpw.mods:bootstraplauncher:1.1.2
 Considering library net.minecraftforge:JarJarFileSystems:0.3.19
   File exists: Checksum validated.
 Considering library net.minecraftforge:fmlloader:1.20.1-47.3.7
-  Downloading library from https://maven.creeperhost.net/net/minecraftforge/fmlloader/1.20.1-47.3.7/fmlloader-1.20.1-47.3.7.jar
-    Download completed: Checksum validated.
+  File exists: Checksum validated.
 Considering library net.minecraftforge:fmlearlydisplay:1.20.1-47.3.7
-  Downloading library from https://maven.creeperhost.net/net/minecraftforge/fmlearlydisplay/1.20.1-47.3.7/fmlearlydisplay-1.20.1-47.3.7.jar
-    Download completed: Checksum validated.
+  File exists: Checksum validated.
 Considering library com.github.jponge:lzma-java:1.3
   File exists: Checksum validated.
 Considering library com.google.code.findbugs:jsr305:3.0.2
@@ -105,28 +96,23 @@ Considering library net.minecraftforge:ForgeAutoRenamingTool:0.1.22:all
 Considering library net.minecraftforge:binarypatcher:1.1.1
   File exists: Checksum validated.
 Considering library net.minecraftforge:fmlcore:1.20.1-47.3.7
-  Downloading library from https://maven.creeperhost.net/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar
-    Download completed: Checksum validated.
+  File exists: Checksum validated.
 Considering library net.minecraftforge:fmlearlydisplay:1.20.1-47.3.7
   File exists: Checksum validated.
 Considering library net.minecraftforge:fmlloader:1.20.1-47.3.7
   File exists: Checksum validated.
 Considering library net.minecraftforge:forge:1.20.1-47.3.7:universal
-  Downloading library from https://maven.creeperhost.net/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar
-    Download completed: Checksum validated.
+  File exists: Checksum validated.
 Considering library net.minecraftforge:installertools:1.4.1
   File exists: Checksum validated.
 Considering library net.minecraftforge:jarsplitter:1.1.4
   File exists: Checksum validated.
 Considering library net.minecraftforge:javafmllanguage:1.20.1-47.3.7
-  Downloading library from https://maven.creeperhost.net/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar
-    Download completed: Checksum validated.
+  File exists: Checksum validated.
 Considering library net.minecraftforge:lowcodelanguage:1.20.1-47.3.7
-  Downloading library from https://maven.creeperhost.net/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar
-    Download completed: Checksum validated.
+  File exists: Checksum validated.
 Considering library net.minecraftforge:mclanguage:1.20.1-47.3.7
-  Downloading library from https://maven.creeperhost.net/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar
-    Download completed: Checksum validated.
+  File exists: Checksum validated.
 Considering library net.minecraftforge:srgutils:0.4.3
   File exists: Checksum validated.
 Considering library net.minecraftforge:srgutils:0.4.9
@@ -157,49 +143,49 @@ Considering library org.ow2.asm:asm:9.6
   File exists: Checksum validated.
 Considering library trove:trove:1.0.2
   File exists: Checksum validated.
-Created Temporary Directory: /tmp/forge_installer14061873681050345900
+Created Temporary Directory: /tmp/forge_installer14031007364590335248
   Extracting: /data/server.lzma
 Building Processors
 ===============================================================================
   MainClass: net.minecraftforge.installertools.ConsoleTool
   Classpath:
-    /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar
-    /workspaces/wither/servidor_minecraft/./libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar
-    /workspaces/wither/servidor_minecraft/./libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
-    /workspaces/wither/servidor_minecraft/./libraries/de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar
-    /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm/9.6/asm-9.6.jar
-  Args: --task, EXTRACT_FILES, --archive, /workspaces/wither/servidor_minecraft/forge.jar, --from, data/run.sh, --to, /workspaces/wither/servidor_minecraft/./run.sh, --exec, /workspaces/wither/servidor_minecraft/./run.sh, --from, data/run.bat, --to, /workspaces/wither/servidor_minecraft/./run.bat, --from, data/user_jvm_args.txt, --to, /workspaces/wither/servidor_minecraft/./user_jvm_args.txt, --optional, /workspaces/wither/servidor_minecraft/./user_jvm_args.txt, --from, data/win_args.txt, --to, /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/forge/1.20.1-47.3.7/win_args.txt, --from, data/unix_args.txt, --to, /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt
+    /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar
+    /workspaces/storm/servidor_minecraft/./libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar
+    /workspaces/storm/servidor_minecraft/./libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+    /workspaces/storm/servidor_minecraft/./libraries/de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar
+    /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm/9.6/asm-9.6.jar
+  Args: --task, EXTRACT_FILES, --archive, /workspaces/storm/servidor_minecraft/forge.jar, --from, data/run.sh, --to, /workspaces/storm/servidor_minecraft/./run.sh, --exec, /workspaces/storm/servidor_minecraft/./run.sh, --from, data/run.bat, --to, /workspaces/storm/servidor_minecraft/./run.bat, --from, data/user_jvm_args.txt, --to, /workspaces/storm/servidor_minecraft/./user_jvm_args.txt, --optional, /workspaces/storm/servidor_minecraft/./user_jvm_args.txt, --from, data/win_args.txt, --to, /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/forge/1.20.1-47.3.7/win_args.txt, --from, data/unix_args.txt, --to, /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt
 Task: EXTRACT_FILES
-Archive: /workspaces/wither/servidor_minecraft/forge.jar
+Archive: /workspaces/storm/servidor_minecraft/forge.jar
 Extract: data/run.sh
-         /workspaces/wither/servidor_minecraft/./run.sh
+         /workspaces/storm/servidor_minecraft/./run.sh
 Extract: data/run.bat
-         /workspaces/wither/servidor_minecraft/./run.bat
+         /workspaces/storm/servidor_minecraft/./run.bat
 Extract: data/user_jvm_args.txt
-         /workspaces/wither/servidor_minecraft/./user_jvm_args.txt
+         /workspaces/storm/servidor_minecraft/./user_jvm_args.txt
 Extract: data/win_args.txt
-         /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/forge/1.20.1-47.3.7/win_args.txt
+         /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/forge/1.20.1-47.3.7/win_args.txt
 Extract: data/unix_args.txt
-         /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt
-Exec:    /workspaces/wither/servidor_minecraft/./run.sh
+         /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt
+Exec:    /workspaces/storm/servidor_minecraft/./run.sh
 ===============================================================================
   MainClass: net.minecraftforge.installertools.ConsoleTool
   Classpath:
-    /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar
-    /workspaces/wither/servidor_minecraft/./libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar
-    /workspaces/wither/servidor_minecraft/./libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
-    /workspaces/wither/servidor_minecraft/./libraries/de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar
-    /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm/9.6/asm-9.6.jar
-  Args: --task, BUNDLER_EXTRACT, --input, /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1/server-1.20.1.jar, --output, /workspaces/wither/servidor_minecraft/./libraries/, --libraries
+    /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar
+    /workspaces/storm/servidor_minecraft/./libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar
+    /workspaces/storm/servidor_minecraft/./libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+    /workspaces/storm/servidor_minecraft/./libraries/de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar
+    /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm/9.6/asm-9.6.jar
+  Args: --task, BUNDLER_EXTRACT, --input, /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1/server-1.20.1.jar, --output, /workspaces/storm/servidor_minecraft/./libraries/, --libraries
 Task: BUNDLER_EXTRACT
-Input:   /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1/server-1.20.1.jar
-Output:  /workspaces/wither/servidor_minecraft/./libraries
+Input:   /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1/server-1.20.1.jar
+Output:  /workspaces/storm/servidor_minecraft/./libraries
 All:     false
 JarOnly: false
 Libs:    true
@@ -235,18 +221,18 @@ File already exists, and hash verified
 ===============================================================================
   MainClass: net.minecraftforge.installertools.ConsoleTool
   Classpath:
-    /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar
-    /workspaces/wither/servidor_minecraft/./libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar
-    /workspaces/wither/servidor_minecraft/./libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
-    /workspaces/wither/servidor_minecraft/./libraries/de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar
-    /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm/9.6/asm-9.6.jar
-  Args: --task, BUNDLER_EXTRACT, --input, /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1/server-1.20.1.jar, --output, /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-unpacked.jar, --jar-only
+    /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar
+    /workspaces/storm/servidor_minecraft/./libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar
+    /workspaces/storm/servidor_minecraft/./libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+    /workspaces/storm/servidor_minecraft/./libraries/de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar
+    /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm/9.6/asm-9.6.jar
+  Args: --task, BUNDLER_EXTRACT, --input, /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1/server-1.20.1.jar, --output, /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-unpacked.jar, --jar-only
 Task: BUNDLER_EXTRACT
-Input:   /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1/server-1.20.1.jar
-Output:  /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-unpacked.jar
+Input:   /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1/server-1.20.1.jar
+Output:  /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-unpacked.jar
 All:     false
 JarOnly: true
 Libs:    false
@@ -254,36 +240,36 @@ File already exists, and hash verified
 ===============================================================================
   MainClass: net.minecraftforge.installertools.ConsoleTool
   Classpath:
-    /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar
-    /workspaces/wither/servidor_minecraft/./libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar
-    /workspaces/wither/servidor_minecraft/./libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
-    /workspaces/wither/servidor_minecraft/./libraries/de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar
-    /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm/9.6/asm-9.6.jar
-  Args: --task, MCP_DATA, --input, /workspaces/wither/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412.zip, --output, /workspaces/wither/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412-mappings.txt, --key, mappings
+    /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar
+    /workspaces/storm/servidor_minecraft/./libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar
+    /workspaces/storm/servidor_minecraft/./libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+    /workspaces/storm/servidor_minecraft/./libraries/de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar
+    /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm/9.6/asm-9.6.jar
+  Args: --task, MCP_DATA, --input, /workspaces/storm/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412.zip, --output, /workspaces/storm/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412-mappings.txt, --key, mappings
 Task: MCP_DATA
-Input:  /workspaces/wither/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412.zip
-Output: /workspaces/wither/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412-mappings.txt
+Input:  /workspaces/storm/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412.zip
+Output: /workspaces/storm/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412-mappings.txt
 Key:    mappings
 Extracting: config/joined.tsrg
 ===============================================================================
   MainClass: net.minecraftforge.installertools.ConsoleTool
   Classpath:
-    /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar
-    /workspaces/wither/servidor_minecraft/./libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar
-    /workspaces/wither/servidor_minecraft/./libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
-    /workspaces/wither/servidor_minecraft/./libraries/de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar
-    /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm/9.6/asm-9.6.jar
-  Args: --task, DOWNLOAD_MOJMAPS, --version, 1.20.1, --side, server, --output, /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-mappings.txt
+    /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar
+    /workspaces/storm/servidor_minecraft/./libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar
+    /workspaces/storm/servidor_minecraft/./libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+    /workspaces/storm/servidor_minecraft/./libraries/de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar
+    /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm/9.6/asm-9.6.jar
+  Args: --task, DOWNLOAD_MOJMAPS, --version, 1.20.1, --side, server, --output, /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-mappings.txt
 Task: DOWNLOAD_MOJMAPS
 MC Version: 1.20.1
 Side:       server
-Output:     /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-mappings.txt
+Output:     /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-mappings.txt
 Sanitize:   false
 Format:     TSRG
 Skip:       false
@@ -291,49 +277,49 @@ Downloaded Mojang mappings for 1.20.1
 ===============================================================================
   MainClass: net.minecraftforge.installertools.ConsoleTool
   Classpath:
-    /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar
-    /workspaces/wither/servidor_minecraft/./libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar
-    /workspaces/wither/servidor_minecraft/./libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
-    /workspaces/wither/servidor_minecraft/./libraries/de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar
-    /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm/9.6/asm-9.6.jar
-  Args: --task, MERGE_MAPPING, --left, /workspaces/wither/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412-mappings.txt, --right, /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-mappings.txt, --output, /workspaces/wither/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412-mappings-merged.txt, --classes, --reverse-right
+    /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/installertools/1.4.1/installertools-1.4.1.jar
+    /workspaces/storm/servidor_minecraft/./libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar
+    /workspaces/storm/servidor_minecraft/./libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+    /workspaces/storm/servidor_minecraft/./libraries/de/siegmar/fastcsv/2.2.2/fastcsv-2.2.2.jar
+    /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/srgutils/0.5.6/srgutils-0.5.6.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm/9.6/asm-9.6.jar
+  Args: --task, MERGE_MAPPING, --left, /workspaces/storm/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412-mappings.txt, --right, /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-mappings.txt, --output, /workspaces/storm/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412-mappings-merged.txt, --classes, --reverse-right
 Task: MERGE_MAPPING
-Left:    /workspaces/wither/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412-mappings.txt
+Left:    /workspaces/storm/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412-mappings.txt
          Reversed=false
          null
-Right:   /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-mappings.txt
+Right:   /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-mappings.txt
          Reversed=true
          null
 Classes: true
 Fields:  false
 Methods: false
 Params:  false
-Output:  /workspaces/wither/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412-mappings-merged.txt
+Output:  /workspaces/storm/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412-mappings-merged.txt
 ===============================================================================
   Cache: 
-    /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-slim.jar Validated: 9e06bdd77ca6d95b2cced0bf372245f753eeb16a
-    /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-extra.jar Validated: 13522e3278befd103064d91a199451df4cd2633f
+    /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-slim.jar Validated: 9e06bdd77ca6d95b2cced0bf372245f753eeb16a
+    /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-extra.jar Validated: 13522e3278befd103064d91a199451df4cd2633f
   Cache Hit!
 ===============================================================================
   MainClass: net.minecraftforge.fart.Main
   Classpath:
-    /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/ForgeAutoRenamingTool/0.1.22/ForgeAutoRenamingTool-0.1.22-all.jar
-    /workspaces/wither/servidor_minecraft/./libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/ow2/asm/asm/9.2/asm-9.2.jar
-    /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/srgutils/0.4.9/srgutils-0.4.9.jar
-  Args: --input, /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-slim.jar, --output, /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar, --names, /workspaces/wither/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412-mappings-merged.txt, --ann-fix, --ids-fix, --src-fix, --record-fix
+    /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/ForgeAutoRenamingTool/0.1.22/ForgeAutoRenamingTool-0.1.22-all.jar
+    /workspaces/storm/servidor_minecraft/./libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/ow2/asm/asm/9.2/asm-9.2.jar
+    /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/srgutils/0.4.9/srgutils-0.4.9.jar
+  Args: --input, /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-slim.jar, --output, /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar, --names, /workspaces/storm/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412-mappings-merged.txt, --ann-fix, --ids-fix, --src-fix, --record-fix
 Forge Auto Renaming Tool v0.1.22
 log: null
-input: /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-slim.jar
-output: /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar
+input: /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-slim.jar
+output: /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar
 threads: 4
-Names: /workspaces/wither/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412-mappings-merged.txt(reversed: false)
+Names: /workspaces/storm/servidor_minecraft/./libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412-mappings-merged.txt(reversed: false)
 Fix Annotations: true
 Fix Records: true
 Fix Identifiers: ALL
@@ -341,30 +327,30 @@ Fix SourceFile: JAVA
 Fix Line Numbers: false
 Strip codesigning signatures: false
 Adding Libraries to Inheritance
-Reading Input: /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-slim.jar
+Reading Input: /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-slim.jar
 Adding input to inheritence map
 Processing entries
 Cant Find Class: javax/annotation/Nonnull
-Cant Find Class: javax/annotation/meta/TypeQualifierDefault
-Cant Find Class: org/joml/Vector3f
 Cant Find Class: org/joml/Matrix3f
-Cant Find Class: javax/annotation/Nullable
+Cant Find Class: org/joml/Vector3f
+Cant Find Class: javax/annotation/meta/TypeQualifierDefault
 Cant Find Class: org/joml/Quaternionf
 Cant Find Class: it/unimi/dsi/fastutil/ints/IntIterator
+Cant Find Class: javax/annotation/Nullable
 Cant Find Class: org/joml/Vector3fc
 Cant Find Class: org/joml/Matrix3fc
 Cant Find Class: it/unimi/dsi/fastutil/booleans/BooleanList
 Cant Find Class: it/unimi/dsi/fastutil/booleans/BooleanArrayList
 Cant Find Class: com/google/common/collect/Maps
-Cant Find Class: org/joml/Math
 Cant Find Class: com/google/common/annotations/VisibleForTesting
+Cant Find Class: com/mojang/datafixers/util/Pair
 Cant Find Class: org/joml/Matrix4f
-Cant Find Class: org/joml/Quaternionfc
+Cant Find Class: org/joml/Math
 Cant Find Class: javax/annotation/ParametersAreNonnullByDefault
+Cant Find Class: org/joml/Quaternionfc
+Cant Find Class: org/apache/commons/lang3/tuple/Triple
 Cant Find Class: com/mojang/serialization/codecs/RecordCodecBuilder$Instance
 Cant Find Class: com/mojang/serialization/codecs/RecordCodecBuilder
-Cant Find Class: com/mojang/datafixers/util/Pair
-Cant Find Class: org/apache/commons/lang3/tuple/Triple
 Cant Find Class: com/mojang/datafixers/Products$P4
 Cant Find Class: com/mojang/datafixers/Products
 Cant Find Class: com/mojang/serialization/Codec
@@ -378,18 +364,18 @@ Cant Find Class: com/google/common/collect/Sets$SetView
 Cant Find Class: com/google/common/collect/Sets
 Cant Find Class: org/slf4j/Logger
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2ObjectOpenHashMap
-Cant Find Class: com/mojang/serialization/Keyable
 Cant Find Class: com/google/common/collect/Multimap
 Cant Find Class: com/google/gson/Gson
 Cant Find Class: com/google/gson/JsonElement
 Cant Find Class: com/mojang/logging/LogUtils
+Cant Find Class: com/mojang/serialization/Keyable
 Cant Find Class: com/google/common/collect/ImmutableSet
 Cant Find Class: com/mojang/brigadier/Message
+Cant Find Class: com/google/gson/JsonObject
 Cant Find Class: com/mojang/serialization/DynamicOps
 Cant Find Class: com/mojang/serialization/Encoder
 Cant Find Class: com/mojang/serialization/DataResult
 Cant Find Class: com/mojang/serialization/JsonOps
-Cant Find Class: com/google/gson/JsonObject
 Cant Find Class: com/mojang/brigadier/CommandDispatcher
 Cant Find Class: com/mojang/brigadier/tree/RootCommandNode
 Cant Find Class: com/mojang/brigadier/tree/CommandNode
@@ -405,26 +391,27 @@ Cant Find Class: com/mojang/serialization/Lifecycle
 Cant Find Class: com/google/common/collect/ImmutableList$Builder
 Cant Find Class: it/unimi/dsi/fastutil/floats/Float2FloatFunction
 Cant Find Class: com/google/common/hash/HashCode
+Cant Find Class: com/google/common/hash/HashingOutputStream
 Cant Find Class: com/google/common/hash/Hashing
 Cant Find Class: com/google/common/hash/HashFunction
-Cant Find Class: org/apache/commons/lang3/mutable/MutableInt
-Cant Find Class: com/google/common/hash/HashingOutputStream
 Cant Find Class: com/google/gson/stream/JsonWriter
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2IntOpenHashMap
+Cant Find Class: org/apache/commons/lang3/mutable/MutableInt
 Cant Find Class: org/apache/commons/io/IOUtils
 Cant Find Class: com/mojang/datafixers/DataFixer
-Cant Find Class: com/google/common/collect/Streams
-Cant Find Class: com/google/gson/JsonPrimitive
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2ObjectOpenHashMap
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2ObjectMap
+Cant Find Class: com/google/common/collect/Streams
+Cant Find Class: com/google/gson/JsonPrimitive
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2IntMap
-Cant Find Class: it/unimi/dsi/fastutil/objects/Object2IntMaps
 Cant Find Class: io/netty/buffer/ByteBuf
+Cant Find Class: it/unimi/dsi/fastutil/objects/Object2IntMaps
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2IntMap$Entry
 Cant Find Class: com/google/gson/JsonParseException
 Cant Find Class: org/apache/commons/io/FileUtils
 Cant Find Class: com/google/gson/stream/JsonReader
 Cant Find Class: com/google/gson/internal/Streams
+Cant Find Class: it/unimi/dsi/fastutil/ints/Int2ObjectFunction
 Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectSet
 Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectIterator
 Cant Find Class: org/apache/commons/lang3/StringEscapeUtils
@@ -442,22 +429,21 @@ Cant Find Class: com/mojang/brigadier/arguments/ArgumentType
 Cant Find Class: com/mojang/brigadier/StringReader
 Cant Find Class: com/mojang/brigadier/exceptions/CommandSyntaxException
 Cant Find Class: com/mojang/brigadier/exceptions/SimpleCommandExceptionType
+Cant Find Class: com/google/common/collect/Iterables
 Cant Find Class: com/mojang/brigadier/exceptions/CommandExceptionType
 Cant Find Class: com/mojang/brigadier/context/CommandContext
 Cant Find Class: com/mojang/brigadier/suggestion/SuggestionsBuilder
 Cant Find Class: com/mojang/brigadier/suggestion/Suggestions
-Cant Find Class: com/google/common/collect/Iterables
-Cant Find Class: it/unimi/dsi/fastutil/ints/Int2ObjectFunction
 Cant Find Class: io/netty/channel/SimpleChannelInboundHandler
 Cant Find Class: com/mojang/brigadier/builder/LiteralArgumentBuilder
 Cant Find Class: com/mojang/brigadier/Command
 Cant Find Class: com/mojang/brigadier/builder/ArgumentBuilder
 Cant Find Class: com/mojang/brigadier/arguments/BoolArgumentType
+Cant Find Class: org/apache/commons/lang3/exception/ExceptionUtils
 Cant Find Class: com/mojang/brigadier/builder/RequiredArgumentBuilder
 Cant Find Class: com/mojang/brigadier/arguments/IntegerArgumentType
 Cant Find Class: com/mojang/brigadier/arguments/StringArgumentType
 Cant Find Class: com/mojang/brigadier/tree/LiteralCommandNode
-Cant Find Class: org/apache/commons/lang3/exception/ExceptionUtils
 Cant Find Class: com/google/common/base/MoreObjects
 Cant Find Class: com/google/gson/JsonDeserializer
 Cant Find Class: com/google/gson/JsonSerializer
@@ -468,19 +454,19 @@ Cant Find Class: com/mojang/authlib/yggdrasil/ServicesKeySet
 Cant Find Class: com/mojang/authlib/minecraft/MinecraftSessionService
 Cant Find Class: com/mojang/authlib/GameProfileRepository
 Cant Find Class: org/apache/commons/lang3/ArrayUtils
+Cant Find Class: com/google/gson/GsonBuilder
 Cant Find Class: com/google/gson/JsonNull
 Cant Find Class: com/mojang/brigadier/ImmutableStringReader
+Cant Find Class: com/google/common/collect/ImmutableSet$Builder
 Cant Find Class: com/mojang/brigadier/exceptions/BuiltInExceptionProvider
 Cant Find Class: com/mojang/brigadier/exceptions/DynamicCommandExceptionType
-Cant Find Class: com/google/gson/GsonBuilder
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2BooleanMap$Entry
-Cant Find Class: com/google/common/collect/ImmutableSet$Builder
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2BooleanMap
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2BooleanOpenHashMap
 Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectArrayList
-Cant Find Class: com/google/common/base/Joiner
 Cant Find Class: com/google/common/collect/ImmutableBiMap$Builder
 Cant Find Class: com/google/common/collect/ImmutableBiMap
+Cant Find Class: com/google/common/base/Joiner
 Cant Find Class: com/mojang/serialization/Dynamic
 Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectListIterator
 Cant Find Class: com/mojang/serialization/Decoder
@@ -509,8 +495,8 @@ Cant Find Class: com/mojang/serialization/codecs/UnboundedMapCodec
 Cant Find Class: com/google/common/collect/AbstractIterator
 Cant Find Class: it/unimi/dsi/fastutil/longs/LongConsumer
 Cant Find Class: com/google/common/base/Predicate
-Cant Find Class: org/jetbrains/annotations/Nullable
 Cant Find Class: com/mojang/datafixers/DataFixUtils
+Cant Find Class: org/jetbrains/annotations/Nullable
 Cant Find Class: javax/annotation/concurrent/Immutable
 Cant Find Class: com/google/common/base/MoreObjects$ToStringHelper
 Cant Find Class: org/jetbrains/annotations/VisibleForTesting
@@ -538,10 +524,10 @@ Cant Find Class: it/unimi/dsi/fastutil/ints/IntPredicate
 Cant Find Class: com/google/common/collect/Queues
 Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectIterable
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2IntFunction
+Cant Find Class: io/netty/handler/codec/MessageToByteEncoder
 Cant Find Class: io/netty/handler/codec/ByteToMessageDecoder
 Cant Find Class: io/netty/handler/codec/MessageToMessageDecoder
 Cant Find Class: io/netty/channel/ChannelHandlerContext
-Cant Find Class: io/netty/handler/codec/MessageToByteEncoder
 Cant Find Class: io/netty/channel/Channel
 Cant Find Class: io/netty/util/Attribute
 Cant Find Class: io/netty/handler/codec/DecoderException
@@ -567,15 +553,19 @@ Cant Find Class: io/netty/channel/ChannelOption
 Cant Find Class: io/netty/channel/ChannelPipeline
 Cant Find Class: io/netty/handler/timeout/ReadTimeoutHandler
 Cant Find Class: io/netty/channel/ChannelHandler
-Cant Find Class: io/netty/handler/codec/MessageToMessageEncoder
 Cant Find Class: org/apache/commons/lang3/ObjectUtils
 Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectCollection
+Cant Find Class: io/netty/handler/codec/MessageToMessageEncoder
 Cant Find Class: io/netty/channel/ChannelHandler$Sharable
+Cant Find Class: it/unimi/dsi/fastutil/ints/IntConsumer
+Cant Find Class: io/netty/buffer/ByteBufOutputStream
+Cant Find Class: io/netty/buffer/ByteBufInputStream
+Cant Find Class: com/mojang/authlib/properties/Property
+Cant Find Class: io/netty/buffer/ByteBufAllocator
 Cant Find Class: org/slf4j/Marker
 Cant Find Class: io/netty/channel/nio/NioEventLoopGroup
 Cant Find Class: io/netty/channel/epoll/EpollEventLoopGroup
 Cant Find Class: io/netty/channel/DefaultEventLoopGroup
-Cant Find Class: it/unimi/dsi/fastutil/ints/IntConsumer
 Cant Find Class: io/netty/handler/timeout/TimeoutException
 Cant Find Class: io/netty/channel/EventLoop
 Cant Find Class: io/netty/util/concurrent/Future
@@ -587,23 +577,19 @@ Cant Find Class: io/netty/channel/epoll/Epoll
 Cant Find Class: io/netty/channel/epoll/EpollSocketChannel
 Cant Find Class: io/netty/channel/socket/nio/NioSocketChannel
 Cant Find Class: io/netty/bootstrap/Bootstrap
-Cant Find Class: io/netty/buffer/ByteBufOutputStream
-Cant Find Class: io/netty/handler/codec/CorruptedFrameException
 Cant Find Class: io/netty/channel/EventLoopGroup
 Cant Find Class: io/netty/bootstrap/AbstractBootstrap
 Cant Find Class: io/netty/channel/socket/SocketChannel
-Cant Find Class: io/netty/buffer/ByteBufInputStream
-Cant Find Class: com/mojang/authlib/properties/Property
-Cant Find Class: io/netty/buffer/ByteBufAllocator
 Cant Find Class: com/google/common/util/concurrent/ThreadFactoryBuilder
 Cant Find Class: org/slf4j/MarkerFactory
+Cant Find Class: io/netty/handler/codec/CorruptedFrameException
 Cant Find Class: io/netty/util/ResourceLeakDetector$Level
 Cant Find Class: io/netty/util/ResourceLeakDetector
 Cant Find Class: com/mojang/datafixers/DSL$TypeReference
 Cant Find Class: com/mojang/datafixers/DSL
+Cant Find Class: it/unimi/dsi/fastutil/ints/IntStack
 Cant Find Class: io/netty/util/ByteProcessor
 Cant Find Class: io/netty/util/ReferenceCounted
-Cant Find Class: it/unimi/dsi/fastutil/ints/IntStack
 Cant Find Class: org/apache/commons/lang3/mutable/MutableObject
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2FloatMap
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2FloatOpenCustomHashMap
@@ -616,35 +602,35 @@ Cant Find Class: com/google/gson/reflect/TypeToken
 Cant Find Class: com/google/gson/stream/JsonToken
 Cant Find Class: com/mojang/authlib/yggdrasil/ServicesKeyType
 Cant Find Class: com/mojang/authlib/yggdrasil/ServicesKeyInfo
+Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectArrays
 Cant Find Class: it/unimi/dsi/fastutil/floats/FloatList
 Cant Find Class: it/unimi/dsi/fastutil/floats/FloatArrayList
 Cant Find Class: com/mojang/serialization/Codec$ResultFunction
 Cant Find Class: org/joml/AxisAngle4f
-Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectArrays
 Cant Find Class: com/sun/jna/platform/win32/Tlhelp32$MODULEENTRY32W
 Cant Find Class: com/sun/jna/platform/win32/Tlhelp32
-Cant Find Class: com/google/common/base/Supplier
-Cant Find Class: com/google/common/base/Suppliers
-Cant Find Class: org/jetbrains/annotations/Contract
 Cant Find Class: com/sun/jna/Platform
 Cant Find Class: com/sun/jna/platform/win32/Kernel32
 Cant Find Class: com/sun/jna/platform/win32/Kernel32Util
 Cant Find Class: com/sun/jna/ptr/IntByReference
 Cant Find Class: com/sun/jna/platform/win32/Version
 Cant Find Class: com/sun/jna/Native
+Cant Find Class: com/google/common/base/Supplier
 Cant Find Class: com/sun/jna/platform/win32/Win32Exception
 Cant Find Class: com/sun/jna/Memory
 Cant Find Class: com/sun/jna/Pointer
 Cant Find Class: com/sun/jna/ptr/PointerByReference
+Cant Find Class: org/jetbrains/annotations/Contract
+Cant Find Class: com/google/common/base/Suppliers
 Cant Find Class: com/mojang/datafixers/DataFix
-Cant Find Class: com/mojang/datafixers/types/templates/TaggedChoice$TaggedChoiceType
-Cant Find Class: com/mojang/datafixers/types/templates/TaggedChoice
 Cant Find Class: com/mojang/datafixers/schemas/Schema
 Cant Find Class: com/mojang/datafixers/Typed
-Cant Find Class: com/mojang/datafixers/TypeRewriteRule
-Cant Find Class: com/mojang/datafixers/types/Type
 Cant Find Class: com/mojang/datafixers/OpticFinder
 Cant Find Class: com/mojang/serialization/OptionalDynamic
+Cant Find Class: com/mojang/datafixers/types/templates/TaggedChoice$TaggedChoiceType
+Cant Find Class: com/mojang/datafixers/TypeRewriteRule
+Cant Find Class: com/mojang/datafixers/types/Type
+Cant Find Class: com/mojang/datafixers/types/templates/TaggedChoice
 Cant Find Class: com/mojang/serialization/DynamicLike
 Cant Find Class: com/mojang/datafixers/types/templates/Tag$TagType
 Cant Find Class: com/mojang/datafixers/types/templates/Tag
@@ -658,9 +644,9 @@ Cant Find Class: it/unimi/dsi/fastutil/ints/Int2IntMap
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2IntOpenHashMap
 Cant Find Class: com/google/common/base/Splitter
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2ObjectMap$Entry
+Cant Find Class: it/unimi/dsi/fastutil/ints/Int2ObjectLinkedOpenHashMap
 Cant Find Class: org/apache/commons/lang3/mutable/MutableBoolean
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2IntLinkedOpenHashMap
-Cant Find Class: it/unimi/dsi/fastutil/ints/Int2ObjectLinkedOpenHashMap
 Cant Find Class: it/unimi/dsi/fastutil/shorts/ShortArrayList
 Cant Find Class: it/unimi/dsi/fastutil/shorts/ShortList
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2ObjectArrayMap
@@ -676,19 +662,19 @@ Cant Find Class: com/mojang/datafixers/types/templates/Const$PrimitiveType
 Cant Find Class: com/mojang/datafixers/types/templates/Const
 Cant Find Class: com/google/common/base/Predicates
 Cant Find Class: com/google/common/util/concurrent/ListeningExecutorService
-Cant Find Class: com/google/common/util/concurrent/MoreExecutors
 Cant Find Class: com/google/common/collect/HashMultimap
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2BooleanFunction
 Cant Find Class: com/google/common/base/Charsets
+Cant Find Class: com/google/common/util/concurrent/MoreExecutors
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2DoubleMap
-Cant Find Class: com/google/common/base/Ticker
 Cant Find Class: oshi/SystemInfo
+Cant Find Class: com/google/common/base/Ticker
 Cant Find Class: oshi/hardware/CentralProcessor
 Cant Find Class: oshi/hardware/HardwareAbstractionLayer
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2DoubleOpenHashMap
-Cant Find Class: com/google/gson/LongSerializationPolicy
 Cant Find Class: com/google/common/math/Quantiles$ScaleAndIndexes
 Cant Find Class: com/google/common/math/Quantiles
+Cant Find Class: com/google/gson/LongSerializationPolicy
 Cant Find Class: com/google/common/math/Quantiles$Scale
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2DoubleRBTreeMap
 Cant Find Class: it/unimi/dsi/fastutil/ints/Int2DoubleSortedMap
@@ -701,8 +687,8 @@ Cant Find Class: it/unimi/dsi/fastutil/bytes/ByteArrays
 Cant Find Class: io/netty/util/internal/ThreadLocalRandom
 Cant Find Class: com/google/common/collect/Interner
 Cant Find Class: com/google/common/collect/Interners
-Cant Find Class: org/apache/commons/io/FilenameUtils
 Cant Find Class: com/mojang/serialization/DataResult$PartialResult
+Cant Find Class: org/apache/commons/io/FilenameUtils
 Cant Find Class: it/unimi/dsi/fastutil/HashCommon
 Cant Find Class: it/unimi/dsi/fastutil/ints/IntAVLTreeSet
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2LongMap$Entry
@@ -729,10 +715,10 @@ Cant Find Class: it/unimi/dsi/fastutil/longs/Long2ObjectMap
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2ObjectFunction
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2ObjectArrayMap
-Cant Find Class: it/unimi/dsi/fastutil/ints/Int2ObjectAVLTreeMap
-Cant Find Class: it/unimi/dsi/fastutil/ints/Int2ObjectSortedMap
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2DoubleMap
 Cant Find Class: it/unimi/dsi/fastutil/objects/Object2DoubleArrayMap
+Cant Find Class: it/unimi/dsi/fastutil/ints/Int2ObjectAVLTreeMap
+Cant Find Class: it/unimi/dsi/fastutil/ints/Int2ObjectSortedMap
 Found extra RuntimeVisibleParameterAnnotations entries in <init>(Lnet/minecraft/world/entity/animal/Fox;Ljava/lang/Class;ZZLjava/util/function/Predicate;)V in net/minecraft/world/entity/animal/Fox$DefendTrustedTargetGoal: removing 1
 Cant Find Class: com/google/common/base/Objects
 Cant Find Class: it/unimi/dsi/fastutil/doubles/AbstractDoubleList
@@ -754,8 +740,8 @@ Cant Find Class: org/apache/commons/lang3/mutable/MutableFloat
 Cant Find Class: com/google/common/collect/HashBasedTable
 Cant Find Class: com/google/common/collect/Table
 Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectOpenCustomHashSet
-Cant Find Class: com/mojang/brigadier/ResultConsumer
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2LongMaps
+Cant Find Class: com/mojang/brigadier/ResultConsumer
 Cant Find Class: it/unimi/dsi/fastutil/longs/LongIterator
 Cant Find Class: com/google/common/collect/HashBiMap
 Cant Find Class: com/google/common/io/Files
@@ -765,11 +751,11 @@ Cant Find Class: it/unimi/dsi/fastutil/objects/Object2ByteLinkedOpenHashMap
 Cant Find Class: com/google/common/cache/CacheLoader
 Cant Find Class: com/google/common/cache/LoadingCache
 Cant Find Class: com/google/common/cache/CacheBuilder
+Cant Find Class: com/google/common/collect/ArrayTable
+Cant Find Class: com/google/common/collect/AbstractTable
 Cant Find Class: com/google/common/collect/ImmutableSortedMap
 Cant Find Class: com/mojang/serialization/MapEncoder
 Cant Find Class: com/mojang/serialization/MapDecoder
-Cant Find Class: com/google/common/collect/ArrayTable
-Cant Find Class: com/google/common/collect/AbstractTable
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2ObjectMaps
 Cant Find Class: it/unimi/dsi/fastutil/longs/LongSortedSet
 Cant Find Class: it/unimi/dsi/fastutil/longs/LongAVLTreeSet
@@ -821,10 +807,10 @@ Cant Find Class: com/google/common/collect/ContiguousSet
 Cant Find Class: it/unimi/dsi/fastutil/longs/LongCollection
 Cant Find Class: it/unimi/dsi/fastutil/longs/LongArrayFIFOQueue
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2LongLinkedOpenHashMap
+Cant Find Class: com/google/common/collect/ComparisonChain
 Found extra RuntimeVisibleParameterAnnotations entries in <init>(Ljava/lang/String;ILjava/lang/String;CILjava/lang/Integer;)V in net/minecraft/ChatFormatting: removing 2
 Found extra RuntimeVisibleParameterAnnotations entries in <init>(Ljava/lang/String;ILjava/lang/String;CZILjava/lang/Integer;)V in net/minecraft/ChatFormatting: removing 2
 Cant Find Class: com/google/common/base/Strings
-Cant Find Class: com/google/common/collect/ComparisonChain
 Cant Find Class: com/mojang/serialization/RecordBuilder$AbstractStringBuilder
 Cant Find Class: it/unimi/dsi/fastutil/bytes/ByteArrayList
 Cant Find Class: it/unimi/dsi/fastutil/bytes/ByteConsumer
@@ -840,8 +826,8 @@ Cant Find Class: oshi/hardware/GraphicsCard
 Cant Find Class: it/unimi/dsi/fastutil/Stack
 Cant Find Class: com/mojang/authlib/yggdrasil/YggdrasilAuthenticationService
 Cant Find Class: com/mojang/authlib/exceptions/AuthenticationUnavailableException
-Cant Find Class: com/google/common/primitives/Floats
 Cant Find Class: io/netty/channel/ChannelInboundHandlerAdapter
+Cant Find Class: com/google/common/primitives/Floats
 Cant Find Class: io/netty/util/Timer
 Cant Find Class: io/netty/util/Timeout
 Cant Find Class: io/netty/util/TimerTask
@@ -858,22 +844,22 @@ Found extra RuntimeVisibleParameterAnnotations entries in <init>(Lnet/minecraft/
 Cant Find Class: com/google/common/base/Functions
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2ByteMap$Entry
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2IntMaps
+Cant Find Class: it/unimi/dsi/fastutil/shorts/ShortOpenHashSet
 Cant Find Class: it/unimi/dsi/fastutil/longs/LongSets$EmptySet
 Cant Find Class: it/unimi/dsi/fastutil/longs/LongSets
 Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectLinkedOpenHashSet
-Cant Find Class: it/unimi/dsi/fastutil/shorts/ShortOpenHashSet
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2ObjectMap$FastEntrySet
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2ObjectSortedMap$FastSortedEntrySet
 Cant Find Class: it/unimi/dsi/fastutil/longs/Long2ObjectSortedMap
 Cant Find Class: it/unimi/dsi/fastutil/objects/ObjectBidirectionalIterator
 Cant Find Class: com/google/common/net/InetAddresses
 Cant Find Class: com/mojang/brigadier/arguments/DoubleArgumentType
-Cant Find Class: com/mojang/brigadier/arguments/FloatArgumentType
 Cant Find Class: com/mojang/brigadier/exceptions/Dynamic3CommandExceptionType
+Cant Find Class: com/mojang/brigadier/arguments/FloatArgumentType
 Cant Find Class: com/mojang/brigadier/exceptions/Dynamic3CommandExceptionType$Function
+Cant Find Class: com/mojang/logging/LogQueues
 Cant Find Class: com/mojang/brigadier/exceptions/Dynamic4CommandExceptionType$Function
 Cant Find Class: com/mojang/brigadier/exceptions/Dynamic4CommandExceptionType
-Cant Find Class: com/mojang/logging/LogQueues
 Cant Find Class: com/mojang/brigadier/RedirectModifier
 Cant Find Class: com/mojang/brigadier/SingleRedirectModifier
 Cant Find Class: com/mojang/brigadier/arguments/LongArgumentType
@@ -881,7 +867,7 @@ Cant Find Class: com/mojang/brigadier/arguments/StringArgumentType$StringType
 Cant Find Class: com/mojang/brigadier/AmbiguityConsumer
 Adding extras
 Sorting
-Writing Output: /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar
+Writing Output: /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar
   com/
   com/mojang/
   com/mojang/math/
@@ -6571,27 +6557,27 @@ Writing Output: /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/
 ===============================================================================
   MainClass: net.minecraftforge.binarypatcher.ConsoleTool
   Classpath:
-    /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/binarypatcher/1.1.1/binarypatcher-1.1.1.jar
-    /workspaces/wither/servidor_minecraft/./libraries/commons-io/commons-io/2.4/commons-io-2.4.jar
-    /workspaces/wither/servidor_minecraft/./libraries/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar
-    /workspaces/wither/servidor_minecraft/./libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar
-    /workspaces/wither/servidor_minecraft/./libraries/com/github/jponge/lzma-java/1.3/lzma-java-1.3.jar
-    /workspaces/wither/servidor_minecraft/./libraries/com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.jar
-    /workspaces/wither/servidor_minecraft/./libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar
-    /workspaces/wither/servidor_minecraft/./libraries/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar
-    /workspaces/wither/servidor_minecraft/./libraries/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
-    /workspaces/wither/servidor_minecraft/./libraries/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar
-    /workspaces/wither/servidor_minecraft/./libraries/trove/trove/1.0.2/trove-1.0.2.jar
-  Args: --clean, /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar, --output, /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-server.jar, --apply, /tmp/forge_installer14061873681050345900/data/server.lzma
+    /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/binarypatcher/1.1.1/binarypatcher-1.1.1.jar
+    /workspaces/storm/servidor_minecraft/./libraries/commons-io/commons-io/2.4/commons-io-2.4.jar
+    /workspaces/storm/servidor_minecraft/./libraries/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar
+    /workspaces/storm/servidor_minecraft/./libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar
+    /workspaces/storm/servidor_minecraft/./libraries/com/github/jponge/lzma-java/1.3/lzma-java-1.3.jar
+    /workspaces/storm/servidor_minecraft/./libraries/com/nothome/javaxdelta/2.0.1/javaxdelta-2.0.1.jar
+    /workspaces/storm/servidor_minecraft/./libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar
+    /workspaces/storm/servidor_minecraft/./libraries/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar
+    /workspaces/storm/servidor_minecraft/./libraries/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+    /workspaces/storm/servidor_minecraft/./libraries/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar
+    /workspaces/storm/servidor_minecraft/./libraries/trove/trove/1.0.2/trove-1.0.2.jar
+  Args: --clean, /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar, --output, /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-server.jar, --apply, /tmp/forge_installer14031007364590335248/data/server.lzma
 Applying: 
-  Clean:     /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar
-  Output:    /workspaces/wither/servidor_minecraft/./libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-server.jar
+  Clean:     /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar
+  Output:    /workspaces/storm/servidor_minecraft/./libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-server.jar
   KeepData:  false
   Unpatched: false
   Pack200:   false
   Legacy:    false
-Loading patches file: /tmp/forge_installer14061873681050345900/data/server.lzma
+Loading patches file: /tmp/forge_installer14031007364590335248/data/server.lzma
   Reading patch com.mojang.blaze3d.pipeline.RenderTarget.binpatch
     Checksum: 0 Exists: false
   Reading patch com.mojang.blaze3d.platform.GlStateManager$BlendState.binpatch
@@ -9424,7 +9410,7 @@ Loading patches file: /tmp/forge_installer14061873681050345900/data/server.lzma
     Checksum: aa1a46a4 Exists: true
   Reading patch net.minecraft.world.level.storage.loot.providers.nbt.ContextNbtProvider.binpatch
     Checksum: 92606b05 Exists: true
-Processing: /workspaces/wither/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar
+Processing: /workspaces/storm/servidor_minecraft/./libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar
   Patching com/mojang/math/Transformation 1/1
   Patching net/minecraft/CrashReport 1/1
   Patching net/minecraft/CrashReportCategory$Entry 1/1
