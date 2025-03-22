@@ -1806,3 +1806,5 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [22Mar2025 15:19:09.103] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LuxSilver lost connection: Timed out
 [22Mar2025 15:19:09.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver left the game
 [22Mar2025 15:19:09.198] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[22Mar2025 15:26:32.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown option 'family'
+[22Mar2025 15:26:32.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kill @e[family=mob]<--[HERE]

@@ -5419,3 +5419,9 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [22Mar2025 15:19:09.198] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
 [22Mar2025 15:20:03.671] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [22Mar2025 15:20:03.680] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Mar2025 15:25:03.671] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Mar2025 15:25:03.679] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Mar2025 15:26:32.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown option 'family'
+[22Mar2025 15:26:32.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kill @e[family=mob]<--[HERE]
+[22Mar2025 15:30:03.663] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Mar2025 15:30:03.670] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
