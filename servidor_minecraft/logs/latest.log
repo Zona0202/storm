@@ -329,3 +329,16 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [22Mar2025 13:16:02.106] [Server thread/INFO] [Jade/]: Syncing config to LuxSilver (627b3782-d24f-356a-b10f-fe70da0cb127)
 [22Mar2025 13:22:10.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement [Halberdier]
 [22Mar2025 13:22:36.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement [Monster Hunter]
+[22Mar2025 13:25:08.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [LuxSilver: Stopping the server]
+[22Mar2025 13:25:08.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Mar2025 13:25:08.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Mar2025 13:25:08.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Mar2025 13:25:09.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22Mar2025 13:25:10.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/witherstormmod:bowels
+[22Mar2025 13:25:10.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22Mar2025 13:25:10.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22Mar2025 13:25:10.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Mar2025 13:25:10.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (bowels): All chunks are saved
+[22Mar2025 13:25:10.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Mar2025 13:25:10.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Mar2025 13:25:10.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

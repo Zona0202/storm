@@ -83,5 +83,29 @@
     },
     "done": false
   },
+  "spartanweaponry:halberd": {
+    "criteria": {
+      "has_halberd": "2025-03-22 13:22:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:creeper": "2025-03-22 13:22:36 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-03-22 13:22:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:creeper": "2025-03-22 13:22:36 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
