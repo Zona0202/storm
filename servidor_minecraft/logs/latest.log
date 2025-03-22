@@ -324,3 +324,8 @@ com.google.gson.JsonSyntaxException: Unknown type 'alternative'
 [22Mar2025 13:04:25.572] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
 [22Mar2025 13:04:25.599] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
 [22Mar2025 13:04:25.599] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: lootintegrations.json
+[22Mar2025 13:16:01.761] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LuxSilver[/127.69.220.99:40601] logged in with entity id 205 at (23.819377026180984, 74.98007732738104, -0.5857281441919715)
+[22Mar2025 13:16:01.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver joined the game
+[22Mar2025 13:16:02.106] [Server thread/INFO] [Jade/]: Syncing config to LuxSilver (627b3782-d24f-356a-b10f-fe70da0cb127)
+[22Mar2025 13:22:10.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement [Halberdier]
+[22Mar2025 13:22:36.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LuxSilver has made the advancement [Monster Hunter]
